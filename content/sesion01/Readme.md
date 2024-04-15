@@ -1,4 +1,4 @@
-<!-- .slide: data-background-image="/content/psg-bg-dark.png" data-background-size="100%"-->
+<!-- .slide: data-background-image="../../content/psg-bg-dark.png" data-background-size="100%"-->
 ![Python La paz](../Logo.png) <!-- .element  hidden="true" -->
 
 <br>
@@ -581,7 +581,7 @@ psg-example/
 3. Crea una cuenta en GitHub y envía el link de tu usuario de GitHub en el siguiente formulario  [Formulario de Retos](https://forms.gle/yniyRobj7ds6PEqKA)
 
 ---
-<!-- .slide: data-background-image="/content/psg-bg-dark.png" data-background-size="100%"-->
+<!-- .slide: data-background-image="../../content/psg-bg-dark.png" data-background-size="100%"-->
 
 <br>
 <br>
