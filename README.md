@@ -29,4 +29,4 @@ Todos los recursos que encontrarás han sido desarrollados con mucho cariño por
 * **[Andrei](https://www.linkedin.com/in/alberto-andrei-soria-gomez-b32ba9264/):** Curador de contenido 📌🔍
 * **[Rafa](https://www.linkedin.com/in/andres-rafael-tito-04a240178/):** Curador de contenido 📌🔍
   
-# Con mucho ❤️ Python La Paz 🐍 [![Pagina Web](https://img.shields.io/badge/Web-Python%20La%20Paz-blue.svg)](https://pylapaz.org/)
+## Con mucho ❤️ Python La Paz 🐍 [![Pagina Web](https://img.shields.io/badge/Web-Python%20La%20Paz-blue.svg)](https://pylapaz.org/)
