@@ -560,7 +560,7 @@ Y listo, ya tienes tu cuenta personal en GitHub
 ---
 ##### Retos
 
-Crear una carpeta con el nombre "retos_sesion_01" dentro del proyecto en la cual por cada ejercicio debe crear un archivo
+Crear una carpeta con el nombre "retos_sesion_01" dentro del proyecto, en la cual por cada ejercicio debes crear un archivo
 
 ```bash
 # Ejemplo carpeta
@@ -572,10 +572,10 @@ psg-example/
 ```
 
 ---
-1. Crear un archivo llamado "ejercicio_01.txt" y escribe un mensaje de bienvenida al Python Study Group For Beginners, guardar el archivo y realizar un commit con el mensaje "Bienvenida al PSG For Beginners"
+1. Crea un archivo llamado "ejercicio_01.txt" y escribe un mensaje de bienvenida al Python Study Group For Beginners, guarda el archivo y realiza un commit con el mensaje "Bienvenida al PSG For Beginners"
 
 ---
-2. Crear un archivo llamado "ejercicio_02.txt" y escribe una receta de cocina de tu plato favorito, guardar el archivo y realizar un commit con el mensaje "Receta de mi plato favorito"
+2. Crea un archivo llamado "ejercicio_02.txt" y escribe una receta de cocina de tu plato favorito, guarda el archivo y realiza un commit con el mensaje "Receta de mi plato favorito"
 
 ---
 3. Crea una cuenta en GitHub y envía el link de tu usuario de GitHub en el siguiente formulario  [Formulario de Retos](https://forms.gle/yniyRobj7ds6PEqKA)
