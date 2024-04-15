@@ -10,7 +10,7 @@
 ### Introducción a VS Code y Git
 
 ---
-#### ¿Que es un editor de Código?
+#### ¿Qué es un editor de Código?
 Un editor de código es un editor de texto diseñado para editar el código fuente de los programas informáticos
 
 ---
@@ -51,7 +51,7 @@ Características de Visual Studio Code
 ![Run & Debug](./img/002.png) <!-- .element width="70%" -->
 
 ---
-**Comandos Git Integrados**: Trabajar con GIT es escencial en el mundo del desarrollo y VS Code permite revisar diffs, stage de archivos, realizar commits desde el editor, push y pull desde cualquier SCM (source code management) 
+**Comandos Git Integrados**: Trabajar con GIT es esencial en el mundo del desarrollo y VS Code permite revisar diffs, stage de archivos, realizar commits desde el editor, push y pull desde cualquier SCM (source code management) 
 
 ---
 **Extensiones**: Posee la capacidad de instalar extensiones que agregan más características, extiende y personaliza el editor, instalar extensiones para nuevos lenguajes, temas, herramientas de debug, conectar a servicios
