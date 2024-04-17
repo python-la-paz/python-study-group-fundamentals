@@ -589,7 +589,7 @@ psg-example/
 <br>
 <br>
 
-[![GitHub](./img/044.png) <!-- .element width="20%"-->](https://github.com/python-la-paz/python-study-group-fundamentals/tree/main/content/sesion01)
+[![GitHub](../../content/github_logo.png) <!-- .element width="20%"-->](https://github.com/python-la-paz/python-study-group-fundamentals/tree/main/content/sesion01)
 
 Repositorio de la Sesión
 
