@@ -158,6 +158,7 @@ a la carpeta de "Aplicaciones"
 ##### Mac OS 2/2
 Se debe añadir al PATH ejecutando desde VS Code
 
+* Abrir VS Code
 * Paleta de comandos (Ctrl+Shift+P) y escribir "shell command"
 * Seleccionar "Shell Command: Install 'code' command in PATH"
 
@@ -172,20 +173,53 @@ Se debe añadir al PATH ejecutando desde VS Code
 
 ---
 ##### Creación de un proyecto
+
+La carpeta se convertirá en el proyecto desde el cual trabajaremos, se puede crear en cualquier ubicación del disco duro, en este caso se creará en la carpeta "2024" en el disco C:
+
+Abrimos una terminal de acuerdo al sistema operativo
+
+- Windows: `cmd` o `PowerShell`
+- Linux y Mac: `Terminal`
+
+---
+
+Si no tienen la carpeta 2024 pueden crearla en su disco duro
+
+Para cualquier sistema operativo utilizando la interfaz gráfica o la terminal
+
+```bash
+# Windows
+mkdir C:\2024
+# Linux y Mac
+mkdir /home/username/2024
+```
+
+---
+En la terminal navegaremos a la carpeta "2024" y crearemos una carpeta llamada "psg-example"
+
+```bash
+#Windows
+cd C:\
+cd 2024
+#Linux y Mac OS
+cd /home/username/2024
+```
+
+Luego crearemos la carpeta "psg-example"
+
 ```bash
 #Windows, Linux y Mac OS
 mkdir psg-example
 ```
-La carpeta se convertirá en el proyecto desde el cual trabajaremos
 
-![Creación de un proyecto](./img/008.png) 
+![Creación de un proyecto](./img/008.png)  <!-- .element width="20%"-->
 
 ---
 ##### Abriendo el proyecto con VS Code desde la terminal
 Para abrir el proyecto podemos ejecutar desde la terminal
 ```powershell [1-4|5-6]
 # Windows
-cd C:
+cd C:\
 cd 2024
 code psg-example
 # Otra Forma
@@ -195,13 +229,14 @@ code C:\path\to\folder\psg-example
 
 ---
 ##### Abriendo el proyecto con VS Code desde la terminal
-```bash [1-3|5-6]
+```powershell [1-3|5-6]
 # Linux and Mac
 cd 2024
 code psg-example
 # Otra Forma 
-code /home/path/to/folder/psg-example
+code /home/username/2024/psg-example
 ```
+
 ![Abriendo el proyecto con VS Code desde la terminal](./img/012.png)
 
 ---
@@ -364,7 +399,7 @@ Para crear el repositorio local dirigirse a la carpeta del proyecto creada anter
 
 ```bash
 # Inicializar repositorio
-cd /home/path/to/folder/psg-example
+cd /home/username/2024/psg-example
 git init
 ```
 ![Creación de un repositorio local](./img/025.png) <!-- .element width="60%" -->
@@ -384,7 +419,7 @@ git status
 Abrir VS Code en la dirección del proyecto
 ```bash
 # Abrir VS Code en la carpeta del repositorio local
-cd /home/path/to/folder/psg-example
+cd /home/username/2024/psg-example
 code .
 ```
 ![Crear mi primer archivo](./img/029.png) <!-- .element width="60%" -->
