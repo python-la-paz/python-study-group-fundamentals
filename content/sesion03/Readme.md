@@ -498,10 +498,10 @@ psg-example/
 1.  Crea un archivo llamado **ejercicio_01.py** utilizando el comando `print` imprime el titulo de un libro que cambió tu vida, hacer un `commit` y `push`
 
 ---
-2.  Crea un archivo llamado **ejercicio_02.py** y con multiples `print` haz un dialogo entre personas, donde se saluden, se pregunten sobre alguno de estos temas: el clima, la comida, el trabajo o las finanzas, y se despidan, hacer un `commit` y `push`
+2.  Crea un archivo llamado **ejercicio_02.py** y con múltiples `print` haz un dialogo entre personas, donde se saluden, se pregunten sobre alguno de estos temas: el clima, la comida, el trabajo o las finanzas, se despidan, hacer un `commit` y `push`
 
 ---
-3.  Crea un archivo llamado **ejercicio_03.py** y utilizando multiples `print` y haz un tutorial de como barrer una habitación, se lo más detallado posible desde como agarrar la escoba hasta como recoger y eliminar la basura, hacer un `commit` y `push`
+3.  Crea un archivo llamado **ejercicio_03.py** y utilizando múltiples `print` haz un tutorial de como barrer una habitación, se lo más detallado posible desde como agarrar la escoba hasta como recoger y eliminar la basura, hacer un `commit` y `push`
 
 ---
 <!--.slide: data-visibility="hidden"-->
