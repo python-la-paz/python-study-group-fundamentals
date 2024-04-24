@@ -504,6 +504,19 @@ psg-example/
 3.  Crea un archivo llamado **ejercicio_03.py** y utilizando múltiples `print` realiza un tutorial de como barrer una habitación, se lo más detallado posible indica desde como agarrar la escoba hasta como recoger y eliminar la basura. Realiza un `commit` y un `push` para subir tus cambios.
 
 ---
+<!-- .slide: data-background-image="../../content/psg-bg-dark.png" data-background-size="100%"-->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+[![GitHub](../../content/github_logo.png) <!-- .element width="20%"-->](https://github.com/python-la-paz/python-study-group-fundamentals/tree/main/content/sesion03)
+
+Repositorio de la Sesión
+
+---
 <!--.slide: data-visibility="hidden"-->
 ## Bibliografía y Referencias
 
