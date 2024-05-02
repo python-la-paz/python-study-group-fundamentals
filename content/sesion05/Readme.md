@@ -450,7 +450,7 @@ psg-example/
         ejercicio_02.py
         ejercicio_03.py
         ejercicio_04.py
-        ejercicio_05.ipynb
+        sesion05.ipynb
 ```
 
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
