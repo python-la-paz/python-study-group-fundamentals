@@ -642,7 +642,7 @@ Crear una carpeta con el nombre "reto_sesion_06" en la cual por cada ejercicio d
 ```bash
 # Ejemplo carpeta
 psg-example/
-    tarea_sesion_06/
+    retos_sesion_06/
         ejercicio_01.py
         ejercicio_02.py
         ...
