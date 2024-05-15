@@ -298,7 +298,7 @@ print (sub_lista)
 ![Slicing con paso negativo](./img/13.png) <!-- .element width="60%" -->
 
 ---
-Slicing negativo con paso positivo
+Slicing negativo con paso negativo
 
 ```python [1-3|4-5]
 print ("Slicing negativo con paso negativo")
@@ -308,10 +308,10 @@ sub_lista = lista[-1:-8:-2]
 print (sub_lista)
 ```
 
-![Slicing negativo con paso positivo](./img/14.png) <!-- .element width="60%" -->
+![Slicing negativo con paso negativo](./img/14.png) <!-- .element width="60%" -->
 
 ---
-Slicing negativo con paso negativo
+Slicing negativo con paso positivo
 
 ```python [1-3|4-5]
 print ("Slicing negativo con paso positivo")
@@ -321,7 +321,7 @@ sub_lista = lista[-8:-1:2]
 print (sub_lista)
 ```
 
-![Slicing negativo con paso negativo](./img/15.png) <!-- .element width="60%" -->
+![Slicing negativo con paso positivo](./img/15.png) <!-- .element width="60%" -->
 
 ---
 ##### Concatenación de listas
@@ -1004,6 +1004,9 @@ Subir la carpeta a su repositorio en GitHub cuando termine los retos
    6. ¿Cuanto cuesta el total de los productos?
    7. Ordena los productos alfabéticamente y precios si es posible
    8. Eliminar todos los productos de las listas
+
+---
+5. Convertir y ejecutar el archivo de la "sesion09.py" a un archivo en jupyter notebook
 
 ---
 <!-- .slide: data-background-image="../../content/psg-bg-dark.png" data-background-size="100%"-->
