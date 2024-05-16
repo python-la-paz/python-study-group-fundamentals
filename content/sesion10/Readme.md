@@ -1083,7 +1083,7 @@ git push
 Crear una carpeta con el nombre "retos_sesion_10" en la cual por cada ejercicio debe crear un script de python
 
 ```bash
-# Ejemplo carpeta
+# Ejemplo carpeta 
 psg-example/
     retos_sesion_10/
         ejercicio_01.py
