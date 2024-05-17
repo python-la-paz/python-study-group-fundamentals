@@ -266,9 +266,9 @@ Los conjuntos soportan métodos como:
 ---
 Se utiliza la notación de punto `.` 
 
-`lista.metodo()`
+`conjunto.metodo()`
 
-`lista.metodo(valor)`
+`conjunto.metodo(valor)`
 
 ---
 ##### Métodos de adición
