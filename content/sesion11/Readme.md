@@ -24,7 +24,7 @@ Las más comunes son tuplas, listas, conjuntos y diccionarios
 | Tupla              | Inmutable, ordenada, indexada     | (1,2,3)               |
 | Lista              | Mutable, ordenada, indexada       | [1,2,3]               |
 | Conjunto           | Mutable, no ordenado, no indexado | {1,2,3}               |
-| <u>Diccionario</u> | Mutable, no ordenado, indexado    | {'a':1, 'b':2, 'c':3} |
+| <u>Diccionario</u> | Mutable, ordenado, indexado       | {'a':1, 'b':2, 'c':3} |
 
 ---
 ¿Qué es un diccionario?

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sesión 12 - Python Study Group</title>
+    <link rel="stylesheet" href="../custom.css">
+    <link rel="stylesheet" href="../../dist/reveal.css">
+    <link rel="stylesheet" href="../../dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="../../plugin/highlight/monokai.css">
+    <link rel="stylesheet" href="../../plugin/pointer/pointer.css" />
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section data-markdown="Readme.md"></section>
+        </div>
+    </div>
+    <a class="custom-btn-home" href="../../"><img src="../homeico.svg" /></a>
+
+    <script src="../../dist/reveal.js"></script>
+    <script src="../../plugin/markdown/markdown.js"></script>
+    <script src="../../plugin/highlight/highlight.js"></script>
+    <script src="../../plugin/notes/notes.js"></script>
+    <script src="../../plugin/math/math.js"></script>
+    <script src="../../plugin/pointer/pointer.js"></script>
+    <script src="../../plugin/zoom/zoom.js"></script>
+    <script>
+
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            pdfMaxPagesPerSlide: 1,
+            slideNumber: 'c/t',
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX, RevealZoom, RevealPointer],
+            pointer: {
+                key: "q", // key to enable pointer, default "q", not case-sensitive
+                color: "red", // color of a cursor, default "red" any valid CSS color
+                opacity: 0.9, // opacity of cursor, default 0.8
+                pointerSize: 18, // pointer size in px, default 12
+                alwaysVisible: false, // should pointer mode be always visible? default "false"
+                tailLength: 10, // NOT IMPLEMENTED YET!!! how long the "tail" should be? default 10
+            }
+        });
+
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9YQTVC2B73"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9YQTVC2B73');
+    </script>
+</body>
+
+</html>

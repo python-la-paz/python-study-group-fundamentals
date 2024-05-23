@@ -18,12 +18,12 @@ De manera eficiente para su uso y manipulación
 Las más comunes son tuplas, listas, conjuntos y diccionarios  
 
 ---
-| Estructura | Características | Ejemplo |
-| --- | --- | --- |
-|Tupla   | Inmutable, ordenada, indexada | (1,2,3) | 
-|<u>Lista</u> | Mutable, ordenada, indexada | [1,2,3] |
-| Conjunto | Mutable, no ordenado, no indexado | {1,2,3} |
-| Diccionario | Mutable, no ordenado, indexado | {'a':1, 'b':2, 'c':3} |
+| Estructura         | Características                   | Ejemplo               |
+| ------------------ | --------------------------------- | --------------------- |
+| Tupla              | Inmutable, ordenada, indexada     | (1,2,3)               |
+| <u>Lista</u>       | Mutable, ordenada, indexada       | [1,2,3]               |
+| Conjunto           | Mutable, no ordenado, no indexado | {1,2,3}               |
+| Diccionario        | Mutable, ordenado, indexado       | {'a':1, 'b':2, 'c':3} |
 
 ---
 ##### ¿Que es una lista?
