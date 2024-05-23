@@ -992,7 +992,7 @@ psg-example/
         ejercicio_04.py
         ejercicio_05.py
         ejercicio_06.py
-        sesion11.ipynb
+        sesion12.ipynb
 ```
 
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
