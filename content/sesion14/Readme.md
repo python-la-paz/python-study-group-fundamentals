@@ -1043,7 +1043,7 @@ Ejemplo 11
 Ejercicio 11, Crear funciones de limpieza de una cadena para obtener las letras y convertir todo en mayúsculas crea funciones de limpieza y función una principal
 
 ```python
-cadena = "Python es un lenguaje de programación 🎈. Feliz Aprendizaje el 2024"
+cadena = "Python es un lenguaje de programación 🎈. Feliz Aprendizaje el 2025"
 ```
 
 3 minutos
@@ -1070,14 +1070,14 @@ def limpiar(cadena):
     cadena = limpiar_mayusculas(cadena)
     return cadena
 
-cadena = "Python es un lenguaje de programación 🎈. Feliz Aprendizaje el 2024"
+cadena = "Python es un lenguaje de programación 🎈. Feliz Aprendizaje el 2025"
 resultado = limpiar(cadena)
 print (cadena)
 print (resultado)
 ```
 
 ```text
-Python es un lenguaje de programación 🎈. Feliz Aprendizaje el 2024
+Python es un lenguaje de programación 🎈. Feliz Aprendizaje el 2025
 PYTHONESUNLENGUAJEDEPROGRAMACIÓNFELIZAPRENDIZAJEEL
 ```
 

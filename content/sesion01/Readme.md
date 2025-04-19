@@ -174,7 +174,7 @@ Se debe añadir al PATH ejecutando desde VS Code
 ---
 ##### Creación de un proyecto
 
-La carpeta se convertirá en el proyecto desde el cual trabajaremos, se puede crear en cualquier ubicación del disco duro, en este caso se creará en la carpeta "2024" en el disco C:
+La carpeta se convertirá en el proyecto desde el cual trabajaremos, se puede crear en cualquier ubicación del disco duro, en este caso se creará en la carpeta "2025" en el disco C:
 
 Abrimos una terminal de acuerdo al sistema operativo
 
@@ -183,26 +183,26 @@ Abrimos una terminal de acuerdo al sistema operativo
 
 ---
 
-Si no tienen la carpeta 2024 pueden crearla en su disco duro
+Si no tienen la carpeta 2025 pueden crearla en su disco duro
 
 Para cualquier sistema operativo utilizando la interfaz gráfica o la terminal
 
 ```bash
 # Windows
-mkdir C:\2024
+mkdir C:\2025
 # Linux y Mac
-mkdir /home/username/2024
+mkdir /home/username/2025
 ```
 
 ---
-En la terminal navegaremos a la carpeta "2024" y crearemos una carpeta llamada "psg-example"
+En la terminal navegaremos a la carpeta "2025" y crearemos una carpeta llamada "psg-example"
 
 ```bash
 #Windows
 cd C:\
-cd 2024
+cd 2025
 #Linux y Mac OS
-cd /home/username/2024
+cd /home/username/2025
 ```
 
 Luego crearemos la carpeta "psg-example"
@@ -220,7 +220,7 @@ Para abrir el proyecto podemos ejecutar desde la terminal
 ```powershell [1-4|5-6]
 # Windows
 cd C:\
-cd 2024
+cd 2025
 code psg-example
 # Otra Forma
 code C:\path\to\folder\psg-example
@@ -231,10 +231,10 @@ code C:\path\to\folder\psg-example
 ##### Abriendo el proyecto con VS Code desde la terminal
 ```powershell [1-3|5-6]
 # Linux and Mac
-cd 2024
+cd 2025
 code psg-example
 # Otra Forma 
-code /home/username/2024/psg-example
+code /home/username/2025/psg-example
 ```
 
 ![Abriendo el proyecto con VS Code desde la terminal](./img/012.png)
@@ -399,7 +399,7 @@ Para crear el repositorio local dirigirse a la carpeta del proyecto creada anter
 
 ```bash
 # Inicializar repositorio
-cd /home/username/2024/psg-example
+cd /home/username/2025/psg-example
 git init
 ```
 ![Creación de un repositorio local](./img/025.png) <!-- .element width="60%" -->
@@ -419,7 +419,7 @@ git status
 Abrir VS Code en la dirección del proyecto
 ```bash
 # Abrir VS Code en la carpeta del repositorio local
-cd /home/username/2024/psg-example
+cd /home/username/2025/psg-example
 code .
 ```
 ![Crear mi primer archivo](./img/029.png) <!-- .element width="60%" -->
@@ -607,13 +607,13 @@ psg-example/
 ```
 
 ---
-1. Crea un archivo llamado "ejercicio_01.txt" y escribe un mensaje de bienvenida al Python Study Group For Beginners, guarda el archivo y realiza un commit con el mensaje "Bienvenida al PSG For Beginners"
+1. Crea un archivo llamado "ejercicio_01.txt" y escribe un mensaje de bienvenida dirigido a toda la comunidad de Python La Paz, guarda el archivo y realiza un commit con el mensaje "Bienvenida desde PSG For Beginners"
 
 ---
-2. Crea un archivo llamado "ejercicio_02.txt" y escribe una receta de cocina de tu plato favorito, guarda el archivo y realiza un commit con el mensaje "Receta de mi plato favorito"
+2. Crea un archivo llamado "ejercicio_02.txt" y escribe una receta de cocina de tu postre favorito, guarda el archivo y realiza un commit con el mensaje "Receta de mi postre favorito"
 
 ---
-3. Crea una cuenta en GitHub y envía el link de tu usuario de GitHub en el siguiente formulario  [Formulario de Retos](https://forms.gle/yniyRobj7ds6PEqKA)
+3. Crea una cuenta en GitHub y envía el link de tu usuario de GitHub en el siguiente formulario  [Formulario de Retos](https://forms.gle/jMeCtPBLsy3kTG7f8)
 
 ---
 <!-- .slide: data-background-image="../../content/psg-bg-dark.png" data-background-size="100%"-->

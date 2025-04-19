@@ -41,7 +41,7 @@ Clonaremos el repositorio en nuestra PC con el comando "git clone"
 Iremos a la carpeta donde deseas clonar el repositorio y ejecutaremos el comando
 
 ```bash
-cd 2024
+cd 2025
 git clone https://github.com/ej2v/psg02
 ```
 ![Clonar repositorio](./img/07.png)  <!-- .element width="60%"-->
@@ -379,7 +379,7 @@ Después de crearlo observamos que el repositorio está vacío y tiene sugerenci
 
 Abrimos el proyecto "psg-example" desde la terminal
 ```bash	
-cd 2024
+cd 2025
 code psg-example
 ```
 ![Markdown](./img/34.png)  <!-- .element width="35%"-->

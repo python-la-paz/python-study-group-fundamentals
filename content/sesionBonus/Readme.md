@@ -546,7 +546,7 @@ nombre_jugador = "Guest"
 
 def jugar():
     while True:
-        print ("Bienvenido al juego de adivinanzas! del Python Study Group 2024")
+        print ("Bienvenido al juego de adivinanzas! del Python Study Group 2025")
         print ("="*63)
         nombre_jugador = input("¿Cuál es tu nombre?: ")
         print (f"Bienvenido, {nombre_jugador}!")
@@ -558,13 +558,13 @@ def jugar():
         secreto = obtener_aleatorio()
         adivina(secreto)
     print ("Gracias por participar!")
-    print (f"🐍 Gracias {nombre_jugador.upper()} por ser parte del Python Study Group 2024! 🐍")
+    print (f"🐍 Gracias {nombre_jugador.upper()} por ser parte del Python Study Group 2025! 🐍")
 
 jugar()
 ```
 
 ---
-Gracias por Participar del Python Study Group 2024🐍
+Gracias por Participar del Python Study Group 2025🐍
 
 > Cada línea de código es el reflejo de un pensamiento
 > 
