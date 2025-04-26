@@ -495,7 +495,7 @@ psg-example/
 ```
 
 ---
-1. Crea un archivo llamado "ejercicio_01.md" y escribe una receta para hacer un sandwich de jamón y queso, guarda el archivo y realiza un commit con el mensaje "Receta de sandwich de jamón y queso", utiliza Markdown y sube el archivo al repositorio remoto con el comando `git push`
+1. Crea un archivo llamado "ejercicio_01.md" y escribe una receta para hacer un sandwich de mantequilla y mermelada, guarda el archivo y realiza un commit con el mensaje "Receta de sandwich de mantequilla y mermelada", utiliza Markdown y sube el archivo al repositorio remoto con el comando `git push`
 
 ---
 2. Crea un archivo llamado "ejercicio_02.md" y haz una breve biografía tuya, utiliza Markdown con títulos, negrillas, itálicas, listas ordenadas y no ordenadas, y una cita con una frase que te motiva a seguir adelante, guarda el archivo y realiza un commit con el mensaje "Biografía personal", sube el archivo al repositorio remoto con el comando `git push`
