@@ -495,13 +495,13 @@ psg-example/
 ```
 
 ---
-1.  Crea un archivo llamado **ejercicio_01.py**, utiliza el comando `print` para imprimir el titulo de un libro que cambió tu vida. Realiza un `commit` y un `push` para subir tus cambios.
+1.  Crea un archivo llamado **ejercicio_01.py**, utiliza el comando `print` para imprimir el titulo y artista de una canción que más te gusta. Realiza un `commit` y un `push` para subir tus cambios.
 
 ---
-2.  Crea un archivo llamado **ejercicio_02.py** y con múltiples `print` muestra un diálogo entre personas, donde se saluden, se pregunten sobre alguno de estos temas: el clima, la comida, el trabajo o las finanzas, se despidan. Realiza un `commit` y un `push` para subir tus cambios.
+2.  Crea un archivo llamado **ejercicio_02.py** y con múltiples `print` muestra un diálogo entre una persona y su gato, donde salude al gato, el gato responda, la persona le haga una pregunta y el gato le responda, al final se despiden. Realiza un `commit` y un `push` para subir tus cambios.
 
 ---
-3.  Crea un archivo llamado **ejercicio_03.py** y utilizando múltiples `print` realiza un tutorial de como barrer una habitación, se lo más detallado posible indica desde como agarrar la escoba hasta como recoger y eliminar la basura. Realiza un `commit` y un `push` para subir tus cambios.
+3.  Crea un archivo llamado **ejercicio_03.py** y utilizando múltiples `print` realiza un tutorial de como lavar los platos, se lo más detallado posible indica desde que tipo de esponja utilizar hasta el orden en que se lava y como secar los platos. Realiza un `commit` y un `push` para subir tus cambios.
 
 ---
 <!-- .slide: data-background-image="../../content/psg-bg-dark.png" data-background-size="100%"-->
