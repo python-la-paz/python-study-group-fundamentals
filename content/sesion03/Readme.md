@@ -113,7 +113,7 @@ Escribir código Pythónico no es difícil
 
 Pero tienes que utilizar las reglas de estilo de código (PEP) para mejorar la elegancia y legibilidad del código
 
-Puedes probar, revisar y mejorar tu código la herramienta online [PythonChecker](https://www.pythonchecker.com/)
+Puedes probar, revisar y mejorar tu código la herramienta online [Python 3 Style Checker](https://www.codewof.co.nz/style/python3/)
 
 > Makes Your Code Great Again
 
@@ -523,7 +523,7 @@ Repositorio de la Sesión
 - [Python Learn](https://do1.dr-chuck.com/pythonlearn/ES_es/pythonlearn.pdf)
 - [Python](https://www.python.org/doc/essays/blurb/)
 - [Python Beginners Guide](https://wiki.python.org/moin/BeginnersGuide/Overview)
-- [Python Checker](https://www.pythonchecker.com/)
+- [Python 3 Style Checker](https://www.codewof.co.nz/style/python3/)
 - [AWS Python](https://aws.amazon.com/es/what-is/python/)
 - [Python Institute](https://pythoninstitute.org/about-python)
 - [Guido Van Rossum](https://gvanrossum.github.io/)
