@@ -475,34 +475,34 @@ psg-example/
 ```
 
 ---
-1. Crea un archivo "ejercicio_01.py", añade un comentario con la descripción del ejercicio "1" y crea un cuadrado con prints
+1. Crea un archivo "ejercicio_01.py", añade un comentario con la descripción de este ejercicio y crea un triángulo rectángulo con prints
 
 ```text
-********
-*      *
-*      *
-*      *
-********
+*
+**
+***
+****
+*****
 ```
 
 Realiza un `commit` y un `push` para subir tus cambios
 
 ---
-2. Crea un archivo "ejercicio_02.ipynb", añade un texto markdown con la descripción del ejercicio "2" y crea una imagen utilizando símbolos y prints
+1. Crea un archivo "ejercicio_02.ipynb", añade un texto en markdown con la descripción de este ejercicio y crea una imagen utilizando símbolos y prints
 
-`Símbolos: * - , () \ | / _ " ' = C`
+`Símbolos: * , () \ | / o " ' = C`
 
 ```text
 Ejemplo
  (()(()
- (=*_*)/")
+ (=*o*)/")
 C(,,)(,,)
 ```
 
 Realiza un `commit` y un `push` para subir tus cambios
 
 ---
-3. Crea un archivo "ejercicio_03.py", escribe las reglas de tu juego de mesa favorito con múltiples prints, por ejemplo:
+1. Crea un archivo "ejercicio_03.py", escribe las reglas de tu juego de mesa favorito con múltiples prints, por ejemplo:
 
 ```text
 Reglas tres en raya
