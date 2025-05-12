@@ -71,7 +71,7 @@ Descargaremos los binarios de acuerdo al sistema operativo que estén utilizando
 - En Linux descargaremos el archivo .deb o .rpm
 - En Mac OS descargaremos el archivo .zip
   - De acuerdo a Chip Intel (i3, i5, i7)
-  -  o Apple Silicon(M1, M2)
+  -  o Apple Silicon(M1, M2, M3, M4)
 
 ---
 ##### Windows
