@@ -71,7 +71,7 @@ Descargaremos los binarios de acuerdo al sistema operativo que estén utilizando
 - En Linux descargaremos el archivo .deb o .rpm
 - En Mac OS descargaremos el archivo .zip
   - De acuerdo a Chip Intel (i3, i5, i7)
-  -  o Apple Silicon(M1, M2)
+  -  o Apple Silicon(M1, M2, M3, M4)
 
 ---
 ##### Windows
@@ -247,7 +247,7 @@ Se abrirá un VS Code con la carpeta desde el explorador donde se puede ver el n
 ![Abriendo el proyecto con VS Code desde la terminal](./img/013.png) <!-- .element width="45%" -->
 
 ---
-##### Qué es un control de versiones
+### ¿Qué es un control de versiones?
 El control de versiones es también conocido como "control de código fuente" <!-- .element class="fragment" data-fragment-index="1"-->
 
 Es la práctica de rastrear y gestionar los cambios en el código de software <!-- .element class="fragment" data-fragment-index="2"-->
@@ -267,7 +267,7 @@ Cada desarrollador podría hacer sus cambios en varias partes del árbol de arch
 Una de las herramientas de control de versiones más populares hoy en día se llama "Git" es gratuita y de código abierto
 
 ---
-##### Ventajas
+### Ventajas
 - Completo historial de cambios a largo plazo de todos los archivos, incluye creación, eliminación y cambios en los archivos
 
 ---
@@ -548,7 +548,7 @@ Pasos para crear una cuenta personal en GitHub
 2. Click en Sign up
 3. Continua con los pasos para crear tu cuenta personal
 ---
-![Pasos para crear una cuenta](./img/046.png)  <!-- .element width="40%"-->
+![Pasos para crear una cuenta](./img/046.png)  <!-- .element width="100%"-->
 
 ---
 Después de llenar los datos, se te pedirá que verifiques tu cuenta a través de un correo electrónico
