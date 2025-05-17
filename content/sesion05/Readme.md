@@ -524,20 +524,21 @@ Sube la carpeta a tu repositorio en GitHub cuando termines los retos
 
 Realiza los siguientes ejercicios para practicar el uso de números enteros y con punto flotante
 
-1. Escribe un programa en Python que calcule el salario si la cantidad de horas trabajadas es `160` y la tarifa por hora de trabajo es `5.5 USD/hora`
+1. Escribe un programa en Python que calcule el total a pagar si se compran 12 productos iguales donde cada uno cuesta 3.75 USD.
 
 ---
 
-2. Escribe un programa en Python que convierta las siguientes temperaturas de grados Celsius a grados Fahrenheit:
-- 30 ºC
-- -273.99 ºC
-- 100 ºC
+2. Escribe un programa en Python que convierta las siguientes temperaturas de grados Fahrenheit a grados Celsius:
+
+- 25 ºF
+- 300 ºF
+- 76 ºF
 
 ---
-3. Convertir a cuantos días, horas, minutos y segundos corresponde la siguiente cantidad de segundos: 288325
+3. Escribe un programa en Python que convierta 987654 segundos en semanas, días, horas, minutos y segundos
 
 ---
-4. Calcular el volumen de un cubo donde uno de sus lados mide 10 metros, utilizando la fórmula general del volumen de un cubo
+1. Calcular el volumen de un cubo donde uno de sus lados mide 10 metros, utilizando la fórmula general del volumen de un cubo
 
 ---
 5. Convertir y ejecutar el archivo de la "sesion05.py" a un archivo en jupyter notebook "sesion05.ipynb"
