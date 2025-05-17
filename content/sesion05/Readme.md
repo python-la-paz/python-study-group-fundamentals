@@ -538,7 +538,7 @@ Realiza los siguientes ejercicios para practicar el uso de números enteros y co
 3. Escribe un programa en Python que convierta 987654 segundos en semanas, días, horas, minutos y segundos
 
 ---
-1. Calcular el volumen de un cubo donde uno de sus lados mide 10 metros, utilizando la fórmula general del volumen de un cubo
+4. Calcular el volumen de un cubo donde uno de sus lados mide 15 metros, utilizando la fórmula general del volumen de un cubo
 
 ---
 5. Convertir y ejecutar el archivo de la "sesion05.py" a un archivo en jupyter notebook "sesion05.ipynb"
