@@ -535,7 +535,14 @@ Realiza los siguientes ejercicios para practicar el uso de números enteros y co
 - 76 ºF
 
 ---
-3. Escribe un programa en Python que convierta 987654 segundos en semanas, días, horas, minutos y segundos
+
+3. Escribe un programa en Python que convierta 1000000 de segundos en semanas, días, horas, minutos y segundos
+
+Ejemplo:
+
+```bash
+788521 segundos = 9 días 3 horas 2 minutos 1 segundo
+```
 
 ---
 4. Calcular el volumen de un cubo donde uno de sus lados mide 15 metros, utilizando la fórmula general del volumen de un cubo
