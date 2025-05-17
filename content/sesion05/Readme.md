@@ -9,23 +9,32 @@
 ### Tipos de datos
 ### Datos numéricos
 ---
-##### Valores y Variables
+### Valores y Variables
 
 ---
-Un valor es una de las cosas más básicas que utiliza un programa, un número, una letra
+### ¿Que es un valor?
 
-El valor que vimos hasta ahora "Hola Mundo" es un tipo de valor llamado "cadena"
+- Un valor es es uno de los elementos mas básicos que utiliza un programa.
 
----
-Una palabra reservada similar a print nos ayuda a identificar el tipo de valor que se está utilizando, esta función es **type**
+- Puede ser un número, una letra o un conjunto de ambos.
 
----
-Crearemos un archivo python "sesion05.py" sobre el cual trabajaremos desde nuestro proyecto
+- El valor que vimos hasta ahora "Hola Mundo" es un valor de tipo "cadena"
 
 ---
-Escribiremos el siguiente código
+
+La función `type`, que funciona de forma parecida a `print`, nos permitirá identificar el tipo de dato de un valor.
+
 ```python
-print ( type (1) )
+type(valor)
+```
+
+---
+Crearemos un archivo python **"sesion05.py"** sobre el cual trabajaremos desde nuestro proyecto
+
+---
+Escribiremos la siguiente linea de código
+```python
+print(type(1))
 ```
 Ejecutamos desde la terminal
 
@@ -37,34 +46,46 @@ python sesion05.py
 ![Type Python](./img/01.png) <!-- .element width="45%" -->
 
 
-&lt;class "int"&gt;: Nos indica de qué tipo es el valor impreso en este caso un entero
+- `<class "int">`: Nos indica el tipo de dato del valor. En este caso es un entero (int)
 
-- type(1): type devuelve el tipo de valor que se le pasa como contenido
-- print ( type (1) ): print imprime el valor que se le pasa en este caso lo que type devuelve que es el tipo de valor
-
----
-Una variable es dar un nombre a un valor
-
-Es de las características más potentes de cualquier lenguaje de programación
-
-Los programadores eligen los nombres para sus variables que tengan sentido
+- `type(1)`: *type* devuelve el tipo de dato del valor que se le pasa como contenido.
+- `print(type(1))`: *print* imprime el valor que se le pasa.
 
 ---
-Existen unas reglas para escribir nombres en Python
+### ¿Qué es una variable?
+
+- Una *variable* es una forma de asignar un nombre a un *valor* para poder usarlo dentro de un programa.
+
+- Es una de las características más poderosas de cualquier lenguaje de programación, por que permite almacenar datos y reutilizarlos.
+
+- El programador es quien escoge el nombre de sus variables.
+
+---
+
+### Reglas para nombrar variables en Python
+
+---
+Existen reglas para nombrar variables en Python
 
 - Pueden contener tanto letras como números
-- NO pueden comenzar con un número
-- NO pueden contener espacios
-- Se puede utilizar mayúsculas como minúsculas
-- Se asigna un valor a una variable con el signo igual (=)  después del nombre
+- **NO** pueden comenzar con un número
+- **NO** pueden contener espacios
+- Se puede utilizar tanto mayúsculas como minúsculas
+- El signo igual (=) se usa para asignar un valor a una variable.
+
+```python
+nombre_variable = "valor"
+```
 
 ---
-- Se puede utilizar el carácter barra baja (_) en un nombre
-- Puede empezar con un barra baja pero no se recomienda usarlo a menos que escribas una librería que utilizarán otros
-- NO se debe usar nombres de palabras reservadas como variables en Python existen hasta el momento 33 palabras reservadas para su propio uso
+- Pueden contener el carácter barra baja (_) 
+- Puede empezar con barra baja pero no se recomienda, a menos que escribas una librería que utilizarán otros
+- **NO** se debe usar **palabras reservadas** como nombres de variables. *Python tiene hasta el momento 33 palabras reservadas*
 
 ---
-Si se le asigna un valor que no siga las reglas se generará un error de sintaxis para probar esto utilizaremos la terminal interactiva
+Si nombramos una variable sin seguir estas reglas Python generará un **error de sintaxis**
+
+Experimentemos en la terminal interactiva.
 
 ```sh
 python
@@ -78,7 +99,7 @@ python
 ![Error de sintaxis](./img/02.png) <!-- .element width="25%" -->
 
 ---
-Es recomendable utilizar nombres de variables que contengan un contexto claro
+Es recomendable utilizar nombres de variables que contengan un contexto claro y describan lo que representan
 
 ```python
 x1q3z9ahd = 35.0
@@ -95,39 +116,44 @@ salario = horas * tarifa
 print(salario)
 ```
 
-Ambos fragmentos el intérprete los lee idénticamente pero el programador los puede asimilar de manera diferente
+- Ambos fragmentos hacen exactamente lo mismo desde el punto de vista del intérprete. Pero el programador los puede asimilar de manera diferente
 
-Los humanos entienden mejor el segundo programa ya que el nombre de las variables refleja el contexto de lo que se está realizando
+- Los humanos entienden mejor el segundo fragmento, porque el nombre de las variables describen lo que representan y otorgan un contexto.
 
 ---
-##### Datos Numéricos
+### Datos Numéricos
 
 Hay tres tipos numéricos
 
 - Integers (int)
 - Floating (float)
 - Números complejos (complex)
+---
+## Números Enteros
+### Integers
+**int**
 
 ---
-###### ¿Qué son los enteros?
+### ¿Qué son los números enteros?
 
 ---
 
-Son números que no cuentan con parte decimal
+- Son números sin parte decimal.
+- Pueden ser positivos, negativos o cero.
 
-Tienen precisión ilimitada, representan valores grandes o pequeños sin pérdida de precisión
+- Tienen precisión ilimitada, pueden representar números muy grandes o muy pequeños sin perder exactitud.
 
 `$ \Z = \{...,-3,-2,-1,0,1,2,3,...\}$`
 
 ---
-Los números enteros en Python pueden ser declarados mediante diferentes formas y bases
+- Los números enteros en Python pueden declararse en distintas bases: decimal, binaria, octal y hexadecimal.
 
-De forma decimal, binaria, octal, hexadecimal, pero sin importar cual sea su base solo afecta a cómo se interpreta y muestra el número
+- La base solo afecta su forma de escritura, no el valor que representan.
 
 ---
-##### ¿Cómo declarar un entero? 
+#### ¿Cómo declarar un número entero? 
 
-Los números enteros se declaran directamente en el código en valores y variables, de forma directa o utilizando el tipo int
+Se puede declarar directamente en el código
 
 ```python
 # Valor 10 Entero
@@ -138,7 +164,9 @@ print ( type (10) )
 ![Entero](./img/03.png) <!-- .element width="50%" -->
 
 ---
-Declarando el entero en variables
+#### ¿Cómo declarar un número entero? 
+
+Se puede declarar en una variables
 
 ```python
 # Variable 100 Entero
@@ -150,7 +178,8 @@ print ( type (variable) )
 ![Entero](./img/04.png) <!-- .element width="50%" -->
 
 ---
-Declarar usando la función int
+#### ¿Cómo declarar un número entero? 
+Se puede declarar usando la función **int**
 
 ```python
 # Variable 20 Entero
@@ -162,13 +191,14 @@ print ( type (variable_2) )
 ![Entero](./img/05.png) <!-- .element width="50%" -->
 
 ---
-Podemos definir enteros en diferentes bases como binario, octal y hexadecimal
+Declarando números enteros en otras bases numéricas
 
-Para estos se utilizan prefijos antes del número
-
-- 0b: para binario, solo acepta números [0,1]
-- 0o: para octal, solo acepta números [0,1,2,3,4,5,6,7]
-- 0x: para hexadecimal, solo acepta números [0,1,2,3,4,5,6,7,8,9] y caracteres [a,b,c,d,e,f]
+| **Base**    | **Prefijo** | **Símbolos válidos** | **Ejemplo** |
+| ----------- | ----------- | -------------------- | ----------- |
+| Decimal     | *(ninguno)* | 0–9                  | `10`        |
+| Binario     | `0b`        | 0, 1                 | `0b1010`    |
+| Octal       | `0o`        | 0–7                  | `0o12`      |
+| Hexadecimal | `0x`        | 0–9, a–f             | `0xa`       |
 
 ---
 ```python
@@ -189,39 +219,49 @@ print (0xa)
 ![Entero en otras Bases](./img/06.png) <!-- .element width="50%" -->
 
 ---
-Podemos declarar enteros tan grandes como la memoria propia del sistema a diferencia de otros lenguajes que tiene un límite por tipo de dato
+#### ¿Qué tan grande puede ser el valor de un entero en Python?
+
+- Python no tienen un límite máximo predefinido para los enteros.
+- Podemos declarar enteros tan grandes como la memoria del sistema lo permita.
+---
 
 ```python
 # Entero con 60 dígitos
 variable_3 = 123456789012345678901234567890123456789012345678901234567890
 print (variable_3)
-print ( type (variable_3) )
+print (type (variable_3))
 ```
 
-![Entero grande](./img/07.png) <!-- .element width="50%" -->
+![Entero grande](./img/07.png) <!-- .element width="75%" -->
 
 ---
-##### ¿Qué son los números con punto flotante?
+## Números con punto flotante
+### Floating
+**float**
 
 ---
+### ¿Qué son los números con punto flotante?
 
-Representan a los números reales tanto positivos como negativos, cuentan con una parte entera y una parte decimal
+---
+- Son números que tienen parte decimal
+- Pueden ser positivos, negativos o cero.
+- Tienen *precisión limitada*, no pueden representar números con una cantidad *infinita* de decimales.
 
 ![Flotante](./img/08.png) <!-- .element width="40%" -->
 
 `$ \R = \{...,-2.5,-1.5,-0.5,0.5,1.5,2.5,...\}$`
 
 ---
-En python los números con coma o punto flotante son llamados "float"
+- En python los números con coma o punto flotante son llamados "float"
 
-Implementa el tipo double del lenguaje "C", que es un tipo de dato que posee el doble de precisión que un float normal en "C"
+- Internamente este tipo utiliza el formato de **doble precisión (double)** del lenguaje C.
 
-Posee precisión finita, tiene un límite en el cual no es posible representar tanta precisión decimal 
+- Permite almacenar valores decimales con mayor exactitud que un float tradicional en C.
 
 ---
-##### ¿Cómo declarar un número flotante?
+#### ¿Cómo declarar un número flotante?
 
-Se declaran directamente en el código en valores y variables de forma directa o utilizando el tipo float
+Se puede declarar directamente en el código
 
 ```python
 # Valor 0.5 Flotante
@@ -232,7 +272,9 @@ print ( type (0.5) )
 ![Flotante](./img/09.png) <!-- .element width="40%" -->
 
 ---
-Declarando el float en variables
+#### ¿Cómo declarar un número flotante?
+
+Se puede declarar en una variables
 
 ```python
 # Variable 0.100546 Flotante
@@ -244,7 +286,9 @@ print ( type (variable_4) )
 ![Flotante con variables](./img/10.png) <!-- .element width="40%" -->
 
 ---
-Declarar usando la función float
+#### ¿Cómo declarar un número flotante?
+
+Se puede declarar usando la función float
 
 ```python
 # Variable 1 Flotante
@@ -256,19 +300,9 @@ print ( type (variable_7) )
 ![Flotante con float](./img/11.png) <!-- .element width="40%" -->
 
 ---
-Precisión máxima con 17 decimales
 
-```python
-# Precisión de 17 decimales
-variable_5 = 0.9999999999999999
-print(variable_5)
-print ( type (variable_5) )
-```
-
-![Flotante con 17 decimales](./img/12.png) <!-- .element width="40%" -->
-
----
-Declarar utilizando notación científica con la letra "e" y el exponente
+#### ¿Cómo declarar un número flotante?
+Se puede declarar utilizando notación científica con la letra "e" y el exponente
 
 ```python
 # Valor 2.0e-3 Flotante
@@ -280,13 +314,32 @@ print ( type (variable_6) )
 ![Flotante con notación científica](./img/13.png) <!-- .element width="40%" -->
 
 ---
-##### Operadores aritméticos
 
-Son símbolos especiales que representan cálculos, como la suma, la multiplicación y otros
+#### ¿Cual es el limite de precisión de un flotante?
 
-Los valores que reciben los operadores son operandos
+Precisión máxima con 17 decimales
+
+```python
+# Precisión de 17 decimales
+variable_5 = 0.9999999999999999
+print(variable_5)
+print ( type (variable_5) )
+```
+
+![Flotante con 17 decimales](./img/12.png) <!-- .element width="40%" -->
+
 
 ---
+## Operadores aritméticos
+---
+#### ¿Que son los operadores aritméticos?
+
+- Son símbolos especiales que representan operaciones matemáticas como la suma, la multiplicación y otros cálculos.
+- Una operación matemática tiene un operador y uno o más operandos.
+- Los operandos son los valores que se utilizan en la operación.
+
+---
+#### Operadores aritméticos en Python
 
 - `$+$`  : Suma
 - `$-$`  : Resta
@@ -327,23 +380,27 @@ print (a // b)
 ![Operadores aritméticos](./img/14.png) <!-- .element width="15%" -->
 
 ---
-Podemos combinar los operadores para crear operaciones más complejas
+- Podemos combinar los operadores para crear operaciones más complejas
 
-Cuando existe más de un operador sigue un orden en la evaluación
+- Cuando existe más de un operador se sigue un orden de precedencia en la evaluación de la operación
 
-Python sigue las convenciones matemáticas
-
----
-El acrónimo **PEMDSR** nos sirve para recordar:
-- Paréntesis tiene un nivel superior, puede forzar a que una expresión sea evaluada primero por lo que 2*(3-1) es 4
-- Exponenciación o potencia sigue en la lista de prioridad por lo que  2**1+1 es 3
+- Python sigue las reglas matemáticas tradicionales
 
 ---
-- Multiplicación y División siguen en la evaluación teniendo el mismo nivel evaluados de izquierda a derecha 2\*3\*1/2 es 3
-- Por último se encuentra la Suma y la Resta donde de la misma forma son evaluados de izquierda a derecha 5-3-1 es 1
+El acrónimo **PEMDSR** nos ayuda a recordar:
+- *Paréntesis* tiene la mayor prioridad, Lo que esté dentro se evalúa primero. Por lo tanto `2*(3-1)` es `4`
+- *Exponenciación* o potencia sigue en la lista de prioridad. Por lo tanto `2**1+1` es `3`
 
 ---
+- *Multiplicación* y *División* tienen la misma prioridad y se evalúan de izquierda a derecha. Por lo tanto `2*3*1/2` es `3`
+- Finalmente, *Suma* y *Resta* que también comparten prioridad y se evalúan de izquierda a derecha. Por lo tanto `5-3-1` es `1`
+
+---
+#### Ejercicio 01
+
 Un contador tiene 300 minutos y se le suman 3600 segundos, ¿Cuántas horas en total son?
+
+*Recuerda que una hora tiene 60 minutos y un minuto tiene 60 segundos*
 
 <iframe src="https://time-stuff.com/embed.html" frameborder="0" scrolling="no" width="391" height="140"></iframe>
 
@@ -360,15 +417,22 @@ Horas:  6.0
 ```
 
 ---
-##### Operadores de comparación
-
-Son símbolos especiales que representan comparaciones, como igualdad y mayor que
-
-Los operadores de comparación permiten comparar dos valores
-
-No necesitan ser del mismo tipo para ser comparados
+## Operadores de comparación
 
 ---
+#### ¿Qué son los operadores de comparación?
+
+- Son símbolos especiales que permiten comparar dos valores.
+
+- Se utilizan para evaluar relaciones como igualdad, mayor que, menor que, entre otras.
+
+- Los valores comparados no necesitan ser del mismo tipo para ser comparados
+
+- El resultado de una comparación siempre es un valor booleano: `True` o `False`.
+---
+#### Operadores de comparación en Python
+
+
 - <: Estrictamente menor que  
 - \>: Estrictamente mayor que
 - ==: Estrictamente igual que
@@ -390,9 +454,9 @@ print (comparar != 10)
 ![Operadores de comparación](./img/15.png) <!-- .element width="35%" -->
 
 ---
-Los objetos numéricos de diferente tipo también pueden ser comparados
+Los valores numéricos de diferente tipo también pueden ser comparados
 ```python
-print ("Operadores de comparación int - float")
+print ("Operadores de comparación con int - float")
 entero = 10
 flotante = 10.0
 print (entero < flotante)
@@ -417,25 +481,26 @@ git push
 ```
 
 ---
-##### Resumen
+## Resumen
 
-- Los valores son una de las cosas más básicas que utiliza un programa
-- Las variables son dar un nombre a un valor
-- Los enteros son números que no cuentan con parte decimal
+- Los valores son uno de los elementos más básicos que utiliza un programa.
+- Una variable es simplemente un nombre que se asigna a un valor.
+- Los números enteros son valores sin parte decimal.
 
 ---
 - Los números con punto flotante son números reales tanto positivos como negativos
-- Los operadores aritméticos son símbolos especiales que representan cálculos
-- Los operadores son: suma, resta, multiplicación, división, potencia, división entera y módulo
+- Los operadores aritméticos son símbolos especiales que indican cálculos matemáticos.
+- Los operadores aritmenticos que podemos usar en Python son: suma `+`, resta `-`, multiplicación `*`, división `/`, potencia `**`, división entera `//` y módulo `%`.
 
 ---
-- El acrónimo PEMDSR nos sirve para recordar el orden de evaluación de los operadores
-- P: Paréntesis, E: Exponenciación, M: Multiplicación, D: División, S: Suma, R: Resta
-- Los operadores de comparación son símbolos especiales que representan comparaciones
+- El acrónimo *PEMDSR* nos ayuda a recordar el orden de evaluación de los operadores
+  
+**P**aréntesis → **E**xponentes → **M**ultiplicación y **D**ivisión → **S**uma y **R**esta.
+- Los operadores de comparación son símbolos especiales que representan comparación entre dos valores 
 
 ---
-- Los objetos numéricos de diferente tipo también pueden ser comparados
-- Se puede realizar operaciones más complejas combinando los operadores
+- Es posible comparar dos valores numéricos de diferente tipo
+- Podemos combinar operadores para construir expresiones mas complejas
 
 ---
 ##### Retos
@@ -453,13 +518,14 @@ psg-example/
         sesion05.ipynb
 ```
 
-Subir la carpeta a su repositorio en GitHub cuando termine los retos
+Sube la carpeta a tu repositorio en GitHub cuando termines los retos
 
 ---
 
-Practicar los siguientes ejercicios para practicar el uso de números enteros y con punto flotante
+Realiza los siguientes ejercicios para practicar el uso de números enteros y con punto flotante
 
 1. Escribe un programa en Python que calcule el salario si la cantidad de horas trabajadas es `160` y la tarifa por hora de trabajo es `5.5 USD/hora`
+
 ---
 
 2. Escribe un programa en Python que convierta las siguientes temperaturas de grados Celsius a grados Fahrenheit:
