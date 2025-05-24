@@ -685,18 +685,18 @@ psg-example/
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
 ---
-1. ¿Si se declara una variable boolean del valor -1 es True o False?
+1. ¿Si se declara una variable boolean del valor 0.0000000001 es True o False?
 2. Construir el operador XNOR en Python
 
 ---
-3. Imprime una tabla de verdad para la siguiente afirmación: "Una puerta tiene dos interruptores que controlan dos luces la puerta sólo debe abrirse cuando las dos luces están apagadas o las dos están encendidas, caso contrario la puerta no se abre, ¿qué operador lógico se puede utilizar?"
+3. Imprime una tabla de verdad para la siguiente sentencia: "Un sistema de seguridad controla el acceso a una habitación, la puerta sólo se abre si se introduce una tarjeta válida o la huella dactilar, pero no ambas al mismo tiempo. Si se introduce la tarjeta y la huella dactilar, la puerta no se abre. ¿Qué operador lógico se puede utilizar?"
 
 ---
-4. La suma de los números 7 y 3 es un número par?
-5. Comparar los números 123 y 890, comprobar si tienen la misma paridad ambos pares o ambos impares
+4. La resta de los números 17 y 9 es un número par?
+5. Comparar los números `44 y 98` , `111 y 333` , comprobar si tienen la misma paridad ambos pares o ambos impares
 
 ---
-6. ¿El cuadrado de 123 se encuentra en el siguiente rango? [N > 0 & N < 20000]
+6. ¿El cubo de 300 se encuentra en el siguiente rango? [N > 0 & N < 27_000_000]
 7. ¿El cuadrado y la suma de 2 y 2 son iguales?
 
 ---
