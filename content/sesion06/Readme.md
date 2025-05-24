@@ -12,7 +12,7 @@
 ##### ¿Qué es un Booleano?
 
 ---
-Es un  tipo de dato que tiene exactamente dos constantes
+Es un tipo de dato lógico que solo puede tener dos valores posibles
 
 - **True**
 - **False**
@@ -21,17 +21,18 @@ Es un  tipo de dato que tiene exactamente dos constantes
 ---
 En python los booleanos están implementados como una subclase de los números enteros
 
-- Un booleano True puede ser considerado como número  1
-- Un booleano False puede ser considerado como número 0
+- Un booleano **True** puede ser considerado como el número  1
+- Un booleano **False** puede ser considerado como el número 0
 
 ---
-Vamos a crear un archivo llamado "sesion06.py"
+Vamos a crear un archivo llamado **"sesion06.py"**
 
 ---
-```python [1-3|4-8]
-print ("Tipos de datos booleanos")
+```python [1-3|4-9]
+print("Tipos de datos booleanos")
 print (True)
 print (False)
+# Operaciones aritméticas con booleanos
 print (True + True)
 print (True * True)
 print (True * False)
@@ -55,10 +56,9 @@ print (10 * False)
 ![Números y booleanos](./img/02.png) <!-- .element width="40%" -->
 
 ---
-##### ¿Cómo declaro un booleano?
+#### ¿Cómo declarar un booleano?
 
----
-1. Directamente en el código escribiendo True o False sin necesidad de comillas 
+Se puede declarar en una variable
 
 ```python [1-4|5-7]
 print ("Declarar variables booleanas")
@@ -73,7 +73,8 @@ print (type(var_booleana))
 ![Declarar variables booleanas](./img/03.png) <!-- .element width="40%" -->
 
 ---
-2. Mediante la función bool()
+#### ¿Cómo declarar un booleano?
+Se puede declarar usando la función bool()
 
 
 ```python [1-4|5-7|8-10]
@@ -92,8 +93,8 @@ print (type(var_booleana))
 ![Declarar mediante función bool()](./img/04.png) <!-- .element width="40%" -->
 
 ---
-
-3. Como resultado de una operación de comparadores lógicos
+#### ¿Cómo declarar un booleano?
+Se puede declarar como resultado de una operación de comparadores lógicos
 
 ---
 ##### Operadores de comparación
@@ -109,21 +110,27 @@ Existen operadores para realizar una comparación entre números
 Se adicionan dos más en total teniendo 8 operadores básicos
 
 ---
-- &lt; : Estrictamente menor que  
-- &gt; : Estrictamente mayor que
-- &lt;= : Menor o igual que
-- &gt;= : Mayor o igual que
+#### Operadores de comparación
+| Operador | Significado             |
+| -------- | ----------------------- |
+| `<`      | Estrictamente menor que |
+| `>`      | Estrictamente mayor que |
+| `<=`     | Menor o igual que       |
+| `>=`     | Mayor o igual que       |
 
 ---
-- == : Estrictamente igual que
-- != : Estrictamente diferente que
-- is : igualdad a nivel de identidad si son el mismo objeto
-- is not: desigualdad a nivel de identidad si no son el mismo objeto
+#### Operadores de igualdad e identidad
+| Operador | Significado                                             |
+| -------- | ------------------------------------------------------- |
+| `==`     | Igualdad de valores (estrictamente igual que)           |
+| `!=`     | Desigualdad de valores (estrictamente diferente que)    |
+| `is`     | Igualdad de identidad (mismo objeto en memoria)         |
+| `is not` | Desigualdad de identidad (objetos distintos en memoria) |
 
 ---
-El resultados de la operación de comparación es un objeto de tipo bool
+El resultados de la operación de comparación es un objeto de tipo `bool`
 
-Puede ser True or False
+Puede ser `True` or `False`
 
 ---
 ```python
@@ -141,7 +148,7 @@ print (10 is not 10)
 ![Operadores de comparación](./img/05.png) <!-- .element width="40%" -->
 
 ---
-Los resultados de los comparadores pueden ser asignados a variables y ser utilizados como parte también de expresiones lógicas más complejas
+Los resultados de los comparadores pueden ser asignados a variables y también puede ser utilizados como parte de expresiones lógicas más complejas
 
 ```python [1-4|5-6]
 print ("Asignación de variables")
@@ -155,25 +162,41 @@ print (diferente_de_10)
 ![Asignación de variables](./img/06.png) <!-- .element width="40%" -->
 
 ---
-##### Operadores lógicos
+#### Operadores lógicos
 
-Son operadores especiales que nos permiten realizar cálculos lógicos para agrupar, excluir y negar expresiones
-
----
-Existen tres expresiones lógicas:
-- Not: "NO", esta expresión es unitaria solo necesita un operador y su objetivo es invertir la expresión
-
-> Si el operador es True el resultado es False, si el operador es False el resultado es True
+Son operadores especiales que nos permiten realizar cálculos lógicos para **agrupar**, **excluir** y **negar** **expresiones**
 
 ---
-- And: "Y", esta expresión necesita dos operadores
+#### Operadores lógicos
+Existen tres operadores lógicos:
 
-> Si los dos operadores son Verdaderos el resultado es Verdadero, si alguno de los operadores es Falso entonces el resultado es Falso
+- `not`: Negación lógica
+- `and`: Conjunción lógica
+- `or`: Disyunción lógica
 
 ---
-- Or  : "O", esta expresión necesita dos operadores
+#### `not`
+- Significa **"NO"**.
+- Es un **operador unario**, lo que significa que solo necesita una expresión.
+- Su función es invertir el valor lógico de la expresión.
+- Si la expresión es **True**, not la convierte en **False**.
+- Si la expresión es **False**, not la convierte en **True**.
 
-> Si al menos uno de los operadores es verdadero el resultado es Verdadero, si los dos operadores son Falsos entonces el resultado es Falso
+---
+#### `and`
+- Significa **"Y"**.
+- Es un **operador binario**, lo que significa que necesita dos expresiones.
+- Su función es verificar si ambas expresiones son verdaderas.
+- El resultado es `True` solo si las dos expresiones son `True`.
+- Si alguna de las expresiones es `False`, el resultado es `False`.
+
+---
+#### `or`
+- Significa **"O"**.
+- Es un **operador binario**, lo que significa que necesita dos expresiones.
+- Su función es verificar si al menos una de las expresiones es verdadera.
+- El resultado es `True` si al menos una de las expresiones es `True`.
+- Si ambas expresiones son `False`, el resultado es `False`.
 
 ---
 ```python [1-3|4-5|6-7]
@@ -189,62 +212,71 @@ print (not False)
 ![Operadores lógicos](./img/07.png) <!-- .element width="40%" -->
 
 ---
-Siguen un orden de prioridad al momento de ser evaluados
+Los operadores lógicos siguen un orden de prioridad al momento de ser evaluados
 
-1. Se ejecuta el operador de negación "not"
-2. Se evalúan las operaciones de conjunción "and"
-3. Finalmente las operaciones de disyunción "or"
-4. Se puede utilizar paréntesis para evaluar una operación antes que otra como en los operadores aritméticos
+1. Se ejecuta el operador de negación `not`
+2. Se evalúan las operaciones de conjunción `and`
+3. Finalmente las operaciones de disyunción `or`
+4. Se puede utilizar paréntesis para evaluar una operación antes que otras, como en los operadores aritméticos
 
 ---
 ```python [1-2|3|4|5|6|7]
-print ("Operadores lógicos y prioridad")
-print (False and False or True)
-print (False and (False or True))
-print (not True and False or True)
-print (not (True and False or False))
-print (not True and (False or False))
-print (not True and False or False)
+print("Operadores lógicos y prioridad")
+print(False and False or True)
+print(False and (False or True))
+print(not True and False or True)
+print(not (True and False or False))
+print(not True and (False or False))
+print(not True and False or False)
 ```
 
 ![Operadores lógicos y prioridad](./img/08.png) <!-- .element width="50%" -->
 
 ---
-##### Funciones lógicas básicas y Tablas de Verdad
+#### Funciones lógicas básicas y Tablas de Verdad
 
 ---
-Las tablas de verdad son una herramienta que nos permite representar la lógica de los circuitos digitales
-
-Sus combinaciones de entrada y salida en términos
-
-(1 y 0) o (Verdad y Falso)
+#### ¿Qué son las tablas de verdad?
+- Las tablas de verdad son una herramienta que nos permite representar el comportamiento lógico de las expresiones o circuitos digitales
+- Muestra todas las combinaciones posibles de valores de entrada. Como `1` y `0` o `True` y `False`
+- Indica el resultado de salida para cada combinación, según la lógica definida con los operadores `and`, `or` y `not`
 
 ---
-El tamaño de una tabla de verdad se determina por 
+##### Construcción de tablas de verdad
+- Se construyen a partir de las combinaciones posibles de valores de entrada
+- Cada fila de la tabla representa una combinación de valores de entrada
+- La última columna representa el resultado de la operación lógica para esa combinación
+- El número de filas en la tabla depende del número de variables de entrada
+---
+#### Tamaño de la tabla de verdad
+
+El tamaño de una tabla de verdad se determina usando la fórmula:
 
 `$$ 2^n $$`
 
-n: Es la cantidad de variables a procesar en la tabla
+Donde `n` representa la cantidad de variables lógicas o entradas.
+---
+#### Tabla de verdad para 1 variable
 
-![Tablas de verdad 1](./img/09.png) <!-- .element width="25%" -->
+![Tablas de verdad 2](./img/09.png) <!-- .element width="30%" -->
 
 ---
-Tabla  de verdad para dos variables
+#### Tabla de verdad para 2 variables
 
 ![Tablas de verdad 2](./img/10.png) <!-- .element width="30%" -->
 
 ---
-Tabla  de verdad para tres variables
+#### Tabla de verdad para 3 variables
 
 ![Tablas de verdad 3](./img/11.png) <!-- .element width="30%" -->
 
 ---
-Tabla  de verdad para cuatro variables
+#### Tabla de verdad para 4 variable
 
 ![Tablas de verdad 4](./img/12.png) <!-- .element width="30%" -->
 
 ---
-Las tres unidades básicas son:
+Las tres operaciones básica son:
 
 - AND: Producto booleano
 - OR: Suma booleana
@@ -255,10 +287,10 @@ Se puede representar sus tablas de verdad
 ---
 Tabla de verdad de "not"
 
-| A | not A |
-|---|-------|
-| V |   F   |
-| F |   V   |
+| A   | not A |
+| --- | ----- |
+| V   | F     |
+| F   | V     |
 
 `$$ \overline{A} $$`
 `$$ \neg A $$`
@@ -266,24 +298,24 @@ Tabla de verdad de "not"
 ---
 Tabla de verdad de "and"
 
-| A | B | A and B |
-|---|---|---------|
-| V | V | V       |
-| V | F | F       |
-| F | V | F       |
-| F | F | F       |
+| A   | B   | A and B |
+| --- | --- | ------- |
+| V   | V   | V       |
+| V   | F   | F       |
+| F   | V   | F       |
+| F   | F   | F       |
 
 ` $$ A \cdot B $$ `
 ` $$ A \land B $$ `
 
 ---
 Tabla de verdad de "or"
-| A | B | A or B |
-|---|---|--------|
-| V | V | V      |
-| V | F | V      |
-| F | V | V      |
-| F | F | F      |
+| A   | B   | A or B |
+| --- | --- | ------ |
+| V   | V   | V      |
+| V   | F   | V      |
+| F   | V   | V      |
+| F   | F   | F      |
 
 ` $$ A + B $$ `
 ` $$ A \lor B $$ `
@@ -304,12 +336,12 @@ Existen otras funciones lógicas que nacen a partir de las tres fundamentales
 ---
 Tablas de verdad de NAND
 
-| A | B | A nand B |
-|---|---|----------|
-| V | V | F        |
-| V | F | V        |
-| F | V | V        |
-| F | F | V        |
+| A   | B   | A nand B |
+| --- | --- | -------- |
+| V   | V   | F        |
+| V   | F   | V        |
+| F   | V   | V        |
+| F   | F   | V        |
 
 ` $$ \overline{A \cdot B} $$ `
 ` $$ \neg (A \land B) $$ `
@@ -317,12 +349,12 @@ Tablas de verdad de NAND
 ---
 Tablas de verdad de NOR
 
-| A | B | A nor B |
-|---|---|---------|
-| V | V | F       |
-| V | F | F       |
-| F | V | F       |
-| F | F | V       |
+| A   | B   | A nor B |
+| --- | --- | ------- |
+| V   | V   | F       |
+| V   | F   | F       |
+| F   | V   | F       |
+| F   | F   | V       |
 
 ` $$ \overline{A + B} $$ `
 ` $$ \neg (A \lor B) $$ `
@@ -330,12 +362,12 @@ Tablas de verdad de NOR
 ---
 Tablas de verdad de XOR
 
-| A | B | A xor B |
-|---|---|---------|
-| V | V | F       |
-| V | F | V       |
-| F | V | V       |
-| F | F | F       |
+| A   | B   | A xor B |
+| --- | --- | ------- |
+| V   | V   | F       |
+| V   | F   | V       |
+| F   | V   | V       |
+| F   | F   | F       |
 
 ` $$ A \oplus B = A\cdot  \overline{B} + \overline{A} \cdot B $$ ` 
 ` $$ (A \lor B) \land \neg (A \land B) $$ `
@@ -343,12 +375,12 @@ Tablas de verdad de XOR
 ---
 Tablas de verdad de XNOR
 
-| A | B | A xnor B |
-|---|---|----------|
-| V | V | V        |
-| V | F | F        |
-| F | V | F        |
-| F | F | V        |
+| A   | B   | A xnor B |
+| --- | --- | -------- |
+| V   | V   | V        |
+| V   | F   | F        |
+| F   | V   | F        |
+| F   | F   | V        |
 
 ` $$ \overline{A \oplus B} = A \cdot B + \overline{A + B} $$ `
 ` $$ \neg((A \lor B) \land \neg (A \land B)) $$ `
@@ -481,7 +513,7 @@ Redes de computadoras: NAND y NOR se utilizan para la lógica de acceso permitie
 ---
 ##### Combinación de operadores de comparación, lógicos y aritméticos
 
-Podemos combinar operadores de comparación como lógicos para crear expresiones más complejas
+- Es posible combinar operadores de comparación, lógicos y aritméticos para construir expresiones más complejas que permitan evaluar condiciones precisas dentro de un programa.
 
 ---
 Ejemplo 1
