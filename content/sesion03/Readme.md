@@ -263,16 +263,16 @@ Python se puede descargar desde su pagina oficial [Python](https://www.python.or
 Para Windows es necesario descargar los binarios desde la página oficial e instalarlos, puede ser añadido al PATH para ser accesible desde cualquier lugar
 
 ---
-![Windows](./img/04.jpeg) <!-- .element width="100%" -->
+![Windows](./img/04.png) <!-- .element width="100%" -->
 
 ---
 ![Windows](./img/05.png) <!-- .element width="100%" -->
 
 ---
-![Windows](./img/06.jpeg) <!-- .element width="100%" -->
+![Windows](./img/06.png) <!-- .element width="100%" -->
 
 ---
-![Windows](./img/06_1.jpeg) <!-- .element width="100%" -->
+![Windows](./img/06_1.png) <!-- .element width="100%" -->
 
 ---
 Python es una herramienta integral en muchos sistemas operativos basados en Linux 
