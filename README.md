@@ -28,6 +28,12 @@ Todos los recursos que encontrarás han sido desarrollados con mucho cariño por
 * **[Tatiana](https://github.com/taicoding):** Diseño curricular 🎨📚
 * **[Andrei](https://www.linkedin.com/in/alberto-andrei-soria-gomez-b32ba9264/):** Curador de contenido 📌🔍
 * **[Rafa](https://www.linkedin.com/in/andres-rafael-tito-04a240178/):** Curador de contenido 📌🔍
-  
+
+## Contributors
+
+<a href="https://github.com/python-la-paz/python-study-group-fundamentals/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=python-la-paz/python-study-group-fundamentals" />
+</a>
+
 ### Con mucho ❤️ Python La Paz 🐍 
 [![Pagina Web](https://img.shields.io/badge/Web-Python%20La%20Paz-blue.svg)](https://pylapaz.org/)
