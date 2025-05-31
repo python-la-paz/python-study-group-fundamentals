@@ -736,19 +736,24 @@ psg-example/
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
 ---
-1.  Escribir una cadena con una frase de una canción o un poema
+1.  Escribir una cadena con una frase de una libro o un poema
 
 ---
-2.  Escribe un programa que reciba dos enteros por teclado y sume su resultado
+2.  Escribe un programa que reciba tres enteros por teclado y reste su resultado
 
 ---
-3.  De la palabra "Fluorescente" mostrar solo los caracteres con índice par
+3.  De la palabra "casas" mostrar solo los caracteres con índice par
 
 ---
-4. Invierte la siguiente palabra "programación"
+4. Invierte la siguiente palabra "electroencefalografista"
 
 ---
-5. Escribe un programa que reciba una cadena y retorna verdadero o falso si es palindrome la frase o palabra ejemplo "Anita lava la Tina" es verdad
+5. Escribe un programa que reciba una cadena y retorna verdadero o falso si es palindrome sin importar los espacios, mayúsculas o minúsculas
+
+```
+Ejemplo: "La Ruta Natural" es True
+larutanatural ➡ larutanatural
+```
 
 ---
 6. Agregar 5 Ejemplos con otras funciones no vistas en la sesión
