@@ -599,7 +599,7 @@ Subir la carpeta a su repositorio en GitHub cuando termine los retos
    - Convierte los valores a enteros almacena los 3 valores en una tupla e imprime el resultado
 
 ---
-1. Crea una tupla con los siguientes elementos:
+2. Crea una tupla con los siguientes elementos:
 
 ```python
 'a','b','c','d','e','f','g','h','i','j'
@@ -608,11 +608,11 @@ Subir la carpeta a su repositorio en GitHub cuando termine los retos
    - Imprime el primer elemento
    - Imprime el último elemento
    - Imprime un slice del índice 3 al 5
-   - Imprime un slice del índice 5 al 9 con pasos de 3
-   - Imprime un slice del índice 9 al 0 con saltos de -2
+   - Imprime un slice del 5 al 9 con pasos de 3
+   - Imprime un slice del 9 al 0 con pasos de -2
 
 ---
-1. Ingresa una pregunta por teclado y almacena el valor en una tupla 
+3. Ingresa una pregunta por teclado y almacena el valor en una tupla 
    - Concatena las tupla
 
 ```python
@@ -623,7 +623,7 @@ Subir la carpeta a su repositorio en GitHub cuando termine los retos
    - Repite la tupla concatenada 2 veces e imprime el nuevo resultado
 
 ---
-1. Las notas de un estudiante durante un semestre son:
+4. Las notas de un estudiante durante un semestre son:
 ```python
 10, 61, 00, 21, 22, 0, 32, 30, 41, 51, 5, 23, 100
 ```
@@ -634,13 +634,13 @@ para saber si aprobó o no el semestre utiliza la función `sum()` y `len()`
 El promedio debe ser mayor o igual a 51 para aprobar
 
 ---
-1. De la siguiente guía telefónica
+5. De la siguiente guía telefónica
 
 ```markdown
 - Jhon, 591123456, Villa fátima
 - Jane, 591546324, Obrajes
 - Dogg, 591222421, Miraflores
-- Kitty, 591753159, Achumani
+- Kity, 591753159, Achumani
 ```
 
 Genera una tupla anidada e imprime el resultado
@@ -651,7 +651,7 @@ Ejemplo:
 ```
 
 ---
-1. De las tuplas de coordenadas
+6. De las tuplas de coordenadas
 
 `$(x1,y1) = (-20, -20) $` y `$ (x2,y2) = (40, 20)$`
 
