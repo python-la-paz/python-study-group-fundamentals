@@ -595,48 +595,55 @@ psg-example/
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
 ---
-1. Ingresa por teclado dos coordenadas `'x','y'` y una ubicación,
+1. Ingresa por teclado tres coordenadas `'x','y','z'`, 
+   - Convierte los valores a enteros
 almacena los 3 valores en una tupla e imprime el resultado
 
 ---
-2. Crea una tupla con los siguientes elementos `1,2,3,4,5,6,7,8,9,10` y realiza:
+2. Crea una tupla con los siguientes elementos `'a','b','c','d','e','f','g','h','i','j'` y realiza:
    - Imprime el primer elemento
    - Imprime el último elemento
-   - Imprime un slice del 4 al 7
-   - Imprime un slice del 2 al 9 con pasos de 3
-   - Imprime un slice del 10 al 1 con saltos de -2
+   - Imprime un slice del índice 3 al 5
+   - Imprime un slice del índice 5 al 9 con pasos de 3
+   - Imprime un slice del índice 9 al 0 con saltos de -2
 
 ---
-3. Ingresa una cadena por teclado y almacena el valor en una tupla 
-   - Concatena la tupla `('¡', )` + tupla almacenada + la tupla `('!', )`
+1. Ingresa una pregunta por teclado y almacena el valor en una tupla 
+   - Concatena la tupla `('¿', )` + pregunta + la tupla `('?', )`
    - Imprime el resultado concatenado
-   - Repite la tupla final 3 veces e imprime el nuevo resultado
+   - Repite la tupla concatenada 2 veces e imprime el nuevo resultado
 
 ---
 4. Las notas de un estudiante durante un semestre son:
 
-`34, 61, 80, 20, 12, 69, 32, 60, 61, 51, 90, 23, 15`
+`10, 61, 00, 21, 22, 0, 32, 30, 41, 51, 5, 23, 100`
 
 Genera una tupla con los resultados y calcula el promedio
 para saber si aprobó o no el semestre utiliza la función `sum()` y `len()`
 
+El promedio debe ser mayor o igual a 51 para aprobar
+
 ---
 5. De la siguiente guía telefónica
 
-Juan, 591123456, La Paz
+Jhon, 591123456, Villa fátima
 
-Pedro, 591546324, La Paz
+Jane, 591546324, Obrajes
 
-Maria, 591222421, El Alto
+Dogg, 591222421, Miraflores
 
-Sol, 591753159, Oruro
+Kitty, 591753159, Achumani
 
 Genera una tupla anidada e imprime el resultado
 
----
-6. De las tuplas de coordenadas
+Ejemplo: 
 
-`$(x1,y1) = (40, 80) $` y `$ (x2,y2) = (50, 50)$`
+`((Nombre, Telf, Dir), (Nombre, Telf, Dir), ...)`
+
+---
+1. De las tuplas de coordenadas
+
+`$(x1,y1) = (-20, -20) $` y `$ (x2,y2) = (40, 20)$`
 
 Encuentra las coordenadas del punto medio, almacena en una tupla e imprime el resultado
 
