@@ -979,20 +979,24 @@ psg-example/
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
 ---
-1. Crear una lista con 5 números flotantes y 5 enteros
+1. Crear una lista con 5 números flotantes y 5 enteros y mostrar todos los elementos
 
 ---
-2. De la siguiente lista `[5,4,3,2,2,2,0,0,1,2]` obtener una sub lista inversa utilizando saltos de 3 en 3 
+2. De la siguiente lista 
+   
+   `[5,4,3,2,2,2,0,0,1,2]`
+
+obtener una sub lista inversa utilizando saltos de 3 en 3 
 
 ---
 3. Crear una lista de personas con 10 nombres de personas
-   1. Obtener una sub lista de 5 a 9
+   1. Obtener una sub lista de 5 a 9 con saltos de 2 en 2
    2. Buscar si existe el nombre "José" en la lista original
-   3. Ordenar la sub lista alfabéticamente
-   4. Ordenar la lista original alfabéticamente de forma descendente
+   3. Ordenar la sub lista alfabéticamente `a-z`
+   4. Ordenar la lista original alfabéticamente descendente `z-a`
 
 ---
-4. Tienes una dulcería y tienes 2 listas una con los productos que tienes y otra con los precios
+4. Una dulcería tiene 2 listas una con los productos y otra con los precios
    1. Agregar 2 productos nuevos al final de las listas
    2. Eliminar el producto con el nombre "Bon Bon Bum" de las listas
    3. ¿Cuánto cuesta el producto "Oreo" y "Chizitos"?
@@ -1000,10 +1004,10 @@ Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
    > Parte 1/2
 ---
-4. Tienes una dulcería y tienes 2 listas una con los productos que tienes y otra con los precios
+4. Una dulcería tiene 2 listas una con los productos y otra con los precios
    5. ¿Cuántos productos tienes en total?
    6. ¿Cuanto cuestan todos los productos?
-   7. Ordena los productos alfabéticamente y precios si es posible
+   7. Ordena los productos y precios del más barato al más caro
    8. Eliminar todos los productos de las listas
 
    > Parte 2/2
