@@ -979,14 +979,10 @@ psg-example/
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
 ---
-1. Crear una lista con 5 números flotantes y 5 enteros y mostrar todos los elementos
+1. Crear una lista con 5 números flotantes y 5 enteros y mostrar todos los elementos y sus tipos de datos utilizando sus índices
 
 ---
-2. De la siguiente lista 
-   
-   `[5,4,3,2,2,2,0,0,1,2]`
-
-obtener una sub lista inversa utilizando saltos de 3 en 3 
+2. De la siguiente lista `[5,4,3,2,2,2,0,0,1,2]` obtener una sub lista inversa utilizando saltos de 3 en 3 
 
 ---
 3. Crear una lista de personas con 10 nombres de personas
