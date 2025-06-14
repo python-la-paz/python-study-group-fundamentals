@@ -979,32 +979,34 @@ psg-example/
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
 ---
-1. Crear una lista con 10 números flotantes
+1. Crear una lista con 5 números flotantes y 5 enteros
 
 ---
-2. De la siguiente lista `[1,2,3,4,5,6,7,8,9,10]` obtener una sub lista inversa utilizando índices de 3 en 3 
+2. De la siguiente lista `[5,4,3,2,2,2,0,0,1,2]` obtener una sub lista inversa utilizando saltos de 3 en 3 
 
 ---
 3. Crear una lista de personas con 10 nombres de personas
-   1. Obtener una sub lista de 2 a 7
-   2. Buscar si existe el nombre "Jhon" en la lista original
+   1. Obtener una sub lista de 5 a 9
+   2. Buscar si existe el nombre "José" en la lista original
    3. Ordenar la sub lista alfabéticamente
    4. Ordenar la lista original alfabéticamente de forma descendente
 
 ---
-4. Tienes una tienda de abarrotes y tienes dos listas una con los productos que tienes y otra con los precios
-   1. Agregar 5 productos nuevos al final de las listas
-   2. Eliminar el producto con el nombre "Leche" de las listas
-   3. ¿Cuanto cuesta el producto "Pan" y "Huevo"?
-   4. ¿Cual es el producto más caro y más barato?
+4. Tienes una dulcería y tienes 2 listas una con los productos que tienes y otra con los precios
+   1. Agregar 2 productos nuevos al final de las listas
+   2. Eliminar el producto con el nombre "Bon Bon Bum" de las listas
+   3. ¿Cuánto cuesta el producto "Oreo" y "Chizitos"?
+   4. ¿Cuál es el producto más caro y el más barato?
 
+   > Parte 1/2
 ---
-4. Tienes una tienda de abarrotes y tienes dos listas una con los productos que tienes y otra con los precios
+4. Tienes una dulcería y tienes 2 listas una con los productos que tienes y otra con los precios
    5. ¿Cuántos productos tienes en total?
-   6. ¿Cuanto cuesta el total de los productos?
+   6. ¿Cuanto cuestan todos los productos?
    7. Ordena los productos alfabéticamente y precios si es posible
    8. Eliminar todos los productos de las listas
 
+   > Parte 2/2
 ---
 5. Convertir y ejecutar el archivo de la "sesion09.py" a un archivo en jupyter notebook
 
