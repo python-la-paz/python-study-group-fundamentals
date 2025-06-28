@@ -1089,6 +1089,7 @@ psg-example/
         ejercicio_01.py
         ejercicio_02.py
         ejercicio_03.py
+        ejercicio_04.py
         sesion10.ipynb
 ```
 
