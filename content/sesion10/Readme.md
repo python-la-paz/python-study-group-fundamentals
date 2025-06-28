@@ -1095,38 +1095,52 @@ psg-example/
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
 ---
-1.  Anita y Pepito llevan saliendo juntos por 4 semanas, cada vez que salen van a comer a una plaza de comidas. Ambos quieren saber que tan compatibles son viendo cuantos platos de comida tienen en común. A continuación tienes los platos de comida que ambos han ido pidiendo a los largo de sus citas:
+1.  Jane y Jhon llevan saliendo juntos por 4 semanas, cada vez que salen van a comer a un candy bar. Quieren saber que tan compatibles son viendo cuantos platos de comida tienen en común. A continuación tienes los postres que han ido pidiendo en cada salida:
+
 ```text
-Anita: Sushi, Pizza, Tacos, Hamburguesa, Pasta, Alitas
-Pepito: Pizza, Tacos, Ensalada, Pasta, Helado, Milanesa
+Jane: Lemon Pie, Brownie, Tarta de Manzana, Helado de Chocolate, Flan
+Jhon: Carrot Cake, Lemon Pie, Croissant de Chocolate, Tarta de Manzana, Pudding
 ```
-Si la cantidad platos de comida que tienen en comunes mayor a 50% entonces ambos seguirán saliendo
+
+```markdown
+Si la cantidad de postres que tienen en común es mayor al 50% 
+entonces son compatibles, de lo contrario quieren replantear su relación
+```
 
 ---
-2. El dueño de un restaurante de comida Mexicana ha decidido comprar un restaurante de comida Italiana y abrir un nuevo restaurante de comida fusion. La apertura esta a la vuelta de la esquina y aun no hay podido actualizar el Menu, Ayuda a actualizar su menu de platos disponibles
+2. El dueño de una tienda de ropa deportiva ha comprado ropa formal y quiere abrir una nueva tienda que combine ambos estilos.
+Crea un conjunto con las prendas de ambos tipos con las listas de prendas
 
 ```python
-menu_mexicano: "Tacos", "Enchiladas", "Guacamole", "Tamales"
-menu_italiano: "Pizza", "Pasta", "Lasagna", "Tiramisú"
+inventario_deportivo = ["Short", "Playera", "Sudadera", "Tenis", "Short", "Calcetines"]
+inventario_formal = ["Saco", "Corbata", "Pantalón de vestir", "Zapatos", "Calcetines"]
 ```
 
 ---
-3. Dos mochileros se encuentran en el Salar de Uyuni y se ponen a comparar la cantidad de lugares que han visitado
+3. Tienes dos listas: clientes que compraron en la tienda física y clientes que compraron online. 
 
-Cada uno quiere saber en que parte del mundo ha estado el otro que el no haya visitado
 
 ```python
-mochilero_a = {"París", "Londres", "Nueva York", "Tokio",
-"Peru", "Chile", "Colombia", "Bolivia"}
+tienda_fisica = ["Ana", "Luis", "Pedro", "María", "Juan"]
+tienda_online = ["Pedro", "María", "Ana", "Carlos", "Laura"]
+```
 
-mochilero_b = {"Londres", "Roma", "Nueva York", "Sidney",
-"Argentina","Brasil","Panama","Bolivia"}
+```markdown	
+a. Quiénes compraron en ambos canales.
+b. Quiénes compraron solo en la tienda física.
+c. Quiénes compraron solo online.
 ```
 
 ---
-4. Ahora quieren saber en que ciudades han estado ambos mochileros
+
+4. Elimina los elementos de oficina repetidos de la cadena
+
+```python
+"📎📐📏✏️🖊️🖋️📎📌📏📇🗂️📁📌🗃️✏️📂🖇️"
+```
 
 ---
+
 5. Convertir y ejecutar el archivo de la "sesion10.py" a un archivo en jupyter notebook
 
 ---
