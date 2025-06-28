@@ -1095,16 +1095,10 @@ psg-example/
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
 ---
-1.  Jane y Jhon llevan saliendo juntos por 4 semanas, cada vez que salen van a comer a un candy bar. Quieren saber que tan compatibles son viendo cuantos platos de comida tienen en común. A continuación tienes los postres que han ido pidiendo en cada salida:
+1. Elimina los elementos de oficina repetidos de la cadena
 
-```text
-Jane: Lemon Pie, Brownie, Tarta de Manzana, Helado de Chocolate, Flan
-Jhon: Carrot Cake, Lemon Pie, Croissant de Chocolate, Tarta de Manzana, Pudding
-```
-
-```markdown
-Si la cantidad de postres que tienen en común es mayor al 50% 
-entonces son compatibles, de lo contrario quieren replantear su relación
+```python
+📎📐📏✏️🖊️🖋️📎📌📏📇🗂️📁📌🗃️✏️📂🖇️
 ```
 
 ---
@@ -1112,8 +1106,8 @@ entonces son compatibles, de lo contrario quieren replantear su relación
 Crea un conjunto con las prendas de ambos tipos con las listas de prendas
 
 ```python
-inventario_deportivo = ["Short", "Playera", "Sudadera", "Tenis", "Short", "Calcetines"]
-inventario_formal = ["Saco", "Corbata", "Pantalón de vestir", "Zapatos", "Calcetines"]
+["Short", "Playera", "Sudadera", "Tenis", "Short", "Calcetines"]
+["Saco", "Corbata", "Pantalón de vestir", "Zapatos", "Calcetines"]
 ```
 
 ---
@@ -1132,15 +1126,23 @@ c. Quiénes compraron solo online.
 ```
 
 ---
+4.  Jane y Jhon llevan saliendo juntos por 4 semanas, cada vez que salen van a comer a un candy bar. Quieren saber que tan compatibles son viendo cuantos platos de comida tienen en común. A continuación tienes los postres que han ido pidiendo en cada salida:
 
-4. Elimina los elementos de oficina repetidos de la cadena
-
-```python
-"📎📐📏✏️🖊️🖋️📎📌📏📇🗂️📁📌🗃️✏️📂🖇️"
+```text
+Jane: Lemon Pie, Brownie, Tarta de Manzana,
+      Helado de Chocolate, Flan
+Jhon: Carrot Cake, Croissant de Chocolate,
+      Lemon Pie, Tarta de Manzana, Pudding
 ```
 
----
+```markdown
+Si la cantidad de postres que tienen en común es mayor al 50% 
+entonces son compatibles,
+de lo contrario quieren replantear su relación
+```
 
+
+---
 5. Convertir y ejecutar el archivo de la "sesion10.py" a un archivo en jupyter notebook
 
 ---
