@@ -725,7 +725,7 @@ psg-example/
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
 ---
-1. Utiliza un diccionario para almacenar información de un animal marino de un acuario, registra información como especie, habitat, dieta, estado de salud, edas y en un set  los nombre de los responsables de su cuidado
+1. Utiliza un diccionario para almacenar información de un animal marino de un acuario, registra información como especie, habitat, dieta, estado de salud, edad y en un set  los nombre de los responsables de su cuidado
 
 ---
 2. Crea un diccionario de alimentos y que animales domésticos lo consumen,  por ejemplo
@@ -733,7 +733,7 @@ Subir la carpeta a su repositorio en GitHub cuando termine los retos
 {"carne" : ["gato", "perro"], "zanahoria" : ["conejo"] }
 ```
 
-   - Añade al diccionario 4 alimentos más usando `update(clave=valor)`
+   - Añade al diccionario 4 alimentos más, usando `update(clave=valor)`
    - Existe en el diccionario de alimentos la comida 'trigo'?
    - Elimina la comida 'zanahoria' del diccionario de alimentos
 
