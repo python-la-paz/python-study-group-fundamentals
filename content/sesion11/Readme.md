@@ -746,7 +746,7 @@ Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
   - Del diccionario obtén y elimina el valor de la clave 'aves'
   - Modifica el valor de la clave 'felino' por '🐈'
-  - Cambia la clave perro por perros y su valor por ['🐶','🐕']
+  - Cambia la clave canino por caninos y su valor por ['🐶','🐕']
 
 ---
 4. Gestión de hábitats en peligro: Crea un diccionario que asocie especies animales en peligro de extinción con información sobre sus hábitats amenazados, lo que permite priorizar la protección de áreas críticas para la supervivencia de estas especies
