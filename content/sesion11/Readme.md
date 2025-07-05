@@ -725,38 +725,38 @@ psg-example/
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
 ---
-1. Registro de un zoológico, utiliza un diccionario para almacenar información de un animal del zoológico, registra información como especie, habitat, dieta, estado de salud, edad, en una lista los responsables de su cuidado
+1. Utiliza un diccionario para almacenar información de un animal marino de un acuario, registra información como especie, habitat, dieta, estado de salud, edas y en un set  los nombre de los responsables de su cuidado
 
 ---
-2. Crea un diccionario para almacenar información de comidas de animales por ejemplo
+2. Crea un diccionario de alimentos y que animales domésticos lo consumen,  por ejemplo
 ```python
-comidas = {"carne" : {"animales": ["león", "tigre"]}, "frutas" : {"animales": ["mono", "elefante"]}}
+{"carne" : ["gato", "perro"], "zanahoria" : ["conejo"] }
 ```
 
-   - Añade al diccionario de comidas 4 alimentos más usando update(clave=valor)
-   - Existe en el diccionario de comidas la comida 'carne'?
-   - Elimina la comida 'frutas' del diccionario de comidas
+   - Añade al diccionario 4 alimentos más usando `update(clave=valor)`
+   - Existe en el diccionario de alimentos la comida 'trigo'?
+   - Elimina la comida 'zanahoria' del diccionario de alimentos
 
 ---
-3. Crea un diccionario con las siguientes tuplas de animales
+3. Crea un diccionario con la siguiente tupla de especies animales
 
 ```python
-tupla = (('perro', '🐶') , ('gato','🐱') , ('aves',['🐦','🦅']))
+(('canino', '🐶') , ('felino','🐱') , ('aves',['🐦','🦅']))
 ```
 
   - Del diccionario obtén y elimina el valor de la clave 'aves'
-  - Modifica el valor de la clave 'gato' por '🐈'
+  - Modifica el valor de la clave 'felino' por '🐈'
   - Cambia la clave perro por perros y su valor por ['🐶','🐕']
 
 ---
 4. Gestión de hábitats en peligro: Crea un diccionario que asocie especies animales en peligro de extinción con información sobre sus hábitats amenazados, lo que permite priorizar la protección de áreas críticas para la supervivencia de estas especies
 
 ```python
-habitats = {"polo norte" : {"especies": {"oso polar", "morsa", "ballena"}}, "amazonas" : {"especies": {"tigre", "mono", "guacamayo"}}}
+{"polo norte" : {"especies": {"oso polar", "morsa", "ballena"}}, "amazonas" : {"especies": {"tigre", "mono", "guacamayo"}}}
 ```
 
 ---
- - Añade al diccionario de habitats 2 habitats más usando update()
+ - Añade al diccionario de habitats 2 habitats más usando update() con 2 especies cada uno
  - Existe en el diccionario de habitats el habitat 'amazonas'?
  - Añade al diccionario de amazonas la especie 'anaconda'
 
@@ -764,11 +764,11 @@ habitats = {"polo norte" : {"especies": {"oso polar", "morsa", "ballena"}}, "ama
 5. Eres NOE y tienes que guardar dos animales de cada especie en un arca, crea un diccionario con las especies
 
 ```python
-arca = {"perro" : 2, "gato" : 2, "tigre" : 2, "mono" : 2, "unicornio" : 0, "jirafa" : 1}
+{"perro" : 2, "gato" : 2, "tigre" : 2, "mono" : 2, "unicornio" : 0, "jirafa" : 1}
 ```  
 
 ---
- - Añade al arca 2 especies más usando update()
+ - Añade al arca 3 especies más usando update()
  - Toma lista de los animales en el arca iterando el diccionario
  - Existe en el arca la especie 'dragon'?
  - Elimina la especie 'unicornio' del arca
