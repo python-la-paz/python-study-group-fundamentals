@@ -998,51 +998,76 @@ psg-example/
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
 ---
-1. Crear un script que pida un número entero y verifique si es par o impar usando operador ternario
+1. Crear un script que pida un número entero y verifique si es múltiplo de 5 usando operador ternario.
 
 ---
-2. Tienes una página web y un usuario quiere acceder a ella, verifica si el usuario inició sesión para acceder a la página, caso contrario muestra un mensaje de error
+2. Tienes una app para gestionar tareas de 4 usuarios, para acceder los usuarios deben iniciar sesión con un nombre de usuario y una contraseña introducidos por teclado. 
 
----
-3. El usuario Jhon Doe esta en una red social sus amigos son:
+- Define los siguientes usuarios y contraseñas utilizando la estructura de datos mas adecuada.
 
 ```python
-{Alice, Bob, Charlie, David, Eve}
-```
 
-La usuaria Jess Doe tiene los siguientes amigos
+```text
+Usuario: admin, Contraseña: admin123
+Usuario: user1, Contraseña: user123
+Usuario: user2, Contraseña: user123
+Usuario: user3, Contraseña: user123
+```
+---
+- Verifica si el usuario inició sesión para acceder a la app y muestra el mensaje `Acceso Aprobado`, caso contrario muestra el mensaje de error `Acceso Denegado`.
+
+---
+3. Jhon colecciona autos a escala 1:64, tiene los siguientes autos
 
 ```python
-{Alice, Bob,  Frank, Grace}
+{'Ferrari', 'Lamborghini', 'Porsche', 'Bugatti', 'McLaren'}
 ```
 
-¿Tienen Jhon y Jess amigos en común?, ¿Cuáles son?
+Jess tambien colecciona autos a escala 1:64, tiene los siguientes autos
+
+```python
+{'Ferrari', 'Lamborghini', 'Tesla', 'Ford', 'Chevrolet'}
+```
+
+¿Que autos tienen en común ambos coleccionistas?, ¿Cuáles son los autos en común?
 
 ---
-4. Una tienda ofrece descuentos a sus clientes, si el cliente es mayor de edad y tiene una compra mayor a 1000, se le aplica un descuento del 10%, si es menor de edad y tiene una compra mayor a 500 se le aplica un descuento del 5%, si no cumple ninguna condición se le aplica un descuento del 2%
+4. Una tienda ofrece descuentos a sus clientes, si el cliente tiene una edad mayor a 60 años y tiene una compra mayor a 1000, se le aplica un descuento del 20%, si el cliente tiene una edad entre 18 y 60 años y tiene una compra mayor a 500 se le aplica un descuento del 10%, si no cumple ninguna condición se le aplica un descuento del 2%
 
 ---
-5. Un usuario ingresa su nombre y gustos musicales por teclado separados por coma, verifica si el usuario ingresó un nombre válido usando truthiness, convertir los gustos musicales en una lista y verifica si tiene el gusto `rock` en su lista de gustos musicales
+5. Tienes una app para gestionar contactos, cada contacto tiene un nombre y un número de teléfono, si el contacto tiene un número de teléfono válido (11 dígitos incluyendo el código de país) y un nombre valido se guarda en la lista de contactos y muestra el mensaje `Contacto guardado`, caso contrario se muestra el mensaje de error `Datos incorrectos`. 
+---
+- El nombre y el numero de teléfono se ingresan por teclado
+- Verifica si el el numero de teléfono es válido
+- Verifica si el nombre válido usando truthiness
+``` text:
+Nombre: Juan Perez
+Teléfono: +591123456789
+-------------
+Contacto guardado
 
-```text
-Nombre: Jhon Doe
-Gustos musicales: rock,pop,jazz
+Nombre: 
+Teléfono: +123456789
+-------------
+Datos incorrectos
 ```
 
 ---
-6. Crea una calculadora por consola que realice las operaciones de suma, resta, multiplicación y división, ingresa dos números y la operación a realizar, verifica si la operación es válida y muestra el resultado
+6. Crea una calculadora por consola que realice las operaciones de suma, resta, multiplicación y división. Las operaciones se ingresan por teclado separadas por comas en el siguiente formato:
+ - numero1, número2, operación
+ - ejemplo: `10, 5, +`
+
+verifica si la operación solicitada es válida y muestra el resultado
 
 
 ```text
-Número 1: 10
-Número 2: 5
-Operación: +
+Operación: 10, 5, +
 -------------
 Resultado: 15
 ```
 
 ---
-7. Convertir y ejecutar el archivo de la "sesion12.py" a un archivo en jupyter notebook
+7. Convertir y ejecutar el archivo de la "sesion12.py" a un archivo en Jupyter Notebook
 
 ---
 <!-- .slide: data-background-image="../../content/psg-bg-dark.png" data-background-size="100%"-->
