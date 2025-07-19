@@ -1074,32 +1074,32 @@ psg-example/
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
 ---
-1. Imprimir los 20 primeros números de la serie de Fibonacci
+1. Imprimir los 20 primeros números de la sucesión de Lucas.
 
 ---
-2. Imprimir los 20 primeros números primos
+1. Imprimir los 20 primeros números que sean múltiplos de 2 y 5.
 
 ---
-3. Dar las felicitaciones a los estudiantes que aprobaron el curso de la siguiente tupla de estudiantes
+1. De la siguiente tupla de estudiantes, imprime las felicitaciones a los estudiantes que aprobaron el curso con una nota mayor o igual a 51
 
 ```python
-estudiantes = [('Juan', 51), ('Pedro', 80), ('Maria', 90), ('Ana', 40), ('Luis', 30)]
+estudiantes = [('Miguel', 51), ('Daniel', 80), ('Virginia', 90), ('Franco', 40), ('Flabio', 30)]
 ```
 
 ---
-4. Crea un ciclo infinito que reciba una palabra por teclado y verifique si es palíndrome, termina la ejecución si se ingresa la palabra `salir`
+1. Crea un ciclo infinito que reciba una frase por teclado y verifique si la frase es palíndromo. La ejecución termina si la frase ingresada contiene la palabra `salir`
 
 ---
 5. Imprimir un tablero de ajedrez de 8x8 con los caracteres `#` y `*`
 
 ---
-6. Crea un ciclo infinito que reciba un número por teclado y verifique si es un número primo, termina la ejecución si se ingresa el número 0
+1. Crea un ciclo infinito que reciba un número por teclado y verifique si el número es múltiplo de 7. La ejecución termina si se ingresa el número 0
 
 ---
-7. Crear una serie de números del 1 al 100, si el número es divisible por 3 imprimir `Fizz`, si el número es divisible por 5 imprimir `Buzz`, si el número es divisible por 3 y 5 imprimir `FizzBuzz`
+7. Crear una serie de números del 1 al 100, si el número es divisible entre 5 imprimir `Fizz`, si el número es divisible entre 7 imprimir `Buzz`, si el número es divisible entre 5 y 7 imprimir `FizzBuzz`
 
 ---
-8. Convertir y ejecutar el archivo de la "sesion13.py" a un archivo en jupyter notebook
+8. Convertir y ejecutar el archivo de la "sesion13.py" a un Jupyter Notebook
 
 ---
 <!-- .slide: data-background-image="../../content/psg-bg-dark.png" data-background-size="100%"-->
