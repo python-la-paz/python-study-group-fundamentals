@@ -1303,28 +1303,49 @@ psg-example/
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
 ---
-1. Un estudiante desea saber cuál es su promedio de calificaciones en la materia de matemáticas, cree una función que reciba las calificaciones como lista y devuelva el promedio las calificaciones son 20,40,60,51,13
+1. Crea una funcion que reciba una lista de calificaciones y devuelva el promedio de las mismas. Las calificaciones son: 50, 75, 80, 91, 70 
 
 ---
-2. Calculadora flexible: Crea una calculadora que acepte diferentes operaciones matemáticas como argumentos de palabras clave y realice los cálculos correspondientes, las operaciones son suma, resta, multiplicación y división
+2. Crear una función que reciba dos números y una operación (suma, resta, multiplicación, división) y devuelva el resultado de la operación
+
+Ejemplo: `calcular(10, 5, "+")` debe devolver `15`
 
 ---
-3. Crear una función recursiva para obtener el N número de la serie de Fibonacci
+3. Crear una función recursiva para obtener el N-esimo número de la serie de Lucas
 
 ---
-4. Crear una función anónima para obtener el área de un círculo con radio 5
+4. Crear una función anónima para obtener el valor absoluto de un número.
 
 ---
-5. Crear una función que reciba una cadena y devuelva la cadena invertida
+5. Crear una función que reciba una cadena y devuelva la cantidad de vocales que tiene.
 
 ---
-6. Crear una función que reciba una lista de números y devuelva solo los números pares
+6. Crear una función que reciba una lista de números y devuelva una lista con los números pares y otra lista con los números impares
 
 ---
-7. Simular un tres en raya con funciones donde reciba las jugadas y devuelva el ganador hasta que alguien ingrese salir
+7. Tres en Raya: 
+- Crear una función que reciba una jugada en cada ejecución
+- Cuando la jugada se completa se debe mostrar el tablero
+- El tablero debe ser una lista de listas
+- El juego termina cuando un jugador gana o hay un empate
+- Si una casilla ya está ocupada, se debe pedir una nueva jugada
+- Se debe mostrar a quién le toca jugar, si a "X" o "O"
 
 ---
-8. Convertir y ejecutar el archivo de la "sesion14.py" a un archivo en jupyter notebook
+
+Ejemplo:
+```text
+tres_en_raya("X", 0, 0)
+
+[['X', ' ', ' '],
+ [' ', ' ', ' '],
+ [' ', ' ', ' ']]
+
+Juega "O"
+```
+
+---
+1. Convertir y ejecutar el archivo de la "sesion14.py" a un Jupyter Notebook
 
 ---
 <!-- .slide: data-background-image="../../content/psg-bg-dark.png" data-background-size="100%"-->
