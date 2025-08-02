@@ -696,21 +696,24 @@ psg-example/
 Subir la carpeta a su repositorio en GitHub cuando termine los retos
 
 ---
-1. Crear una calculadora que solicite dos números y realice las operaciones básicas de suma, resta, multiplicación y división con manejo de excepciones, para salir del programa se debe ingresar "salir"
+
+1. Crea una calculadora interactiva que solicite dos números por teclado y realice las operaciones de suma, resta, multiplicación y división. El programa debe seguir solicitando dos números hasta que se ingrese "salir". Se debe incluir el manejo de excepciones para evitar errores al ingresar datos no numéricos, al intentar dividir entre cero, o ante cualquier otro error inesperado.
 
 ---
-2. Crear un programa para crear una canasta de frutas, solicitar frutas por teclado y **almacenar** en una lista, si se ingresa "salir" termina la ejecución. Solo se permiten las siguientes frutas caso contrario lanzar una excepción personalizada
 
-```python
-🍅🍇🍈🍉🍊🍌🍍🍑
-```
+2. Crea un programa que permita construir una canasta de frutas solicitando ingresar frutas por teclado, una por una, y almacenándolas en una lista. El programa debe finalizar cuando se ingrese "salir". 
 
----
-3. Simular un cajero automático que solicite un monto a retirar, si el monto es mayor al saldo lanzar una excepción personalizada y si el monto es mayor a 1000 lanzar una excepción genérica
+Solo se permiten las siguientes frutas: `🍅, 🍇, 🍈, 🍉, 🍊, 🍌, 🍍, 🍑`
 
+Si se ingresa una fruta no permitida, el programa debe lanzar una excepción personalizada que indique que la fruta no es válida.
 
 ---
-4. Convertir y ejecutar el archivo de la "sesion15.py" a un archivo en jupyter notebook
+
+3. Crea un programa que simule el funcionamiento de un cajero automático solicitando al usuario un monto a retirar. Si el monto ingresado es mayor al saldo disponible, el programa debe lanzar una excepción personalizada que indique que no hay fondos suficientes. Además, si el monto ingresado es mayor a 1000, debe lanzarse una excepción genérica que advierta que el monto excede el límite permitido por transacción.
+
+---
+
+4. Convertir y ejecutar el archivo de la "sesion15.py" a un Jupyter Notebook
 
 ---
 <!-- .slide: data-background-image="../../content/psg-bg-dark.png" data-background-size="100%"-->
