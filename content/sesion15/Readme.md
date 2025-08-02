@@ -713,7 +713,7 @@ Si se ingresa una fruta no permitida, el programa debe lanzar una excepción per
 
 ---
 
-1. Convertir y ejecutar el archivo de la "sesion15.py" a un Jupyter Notebook
+4. Convertir y ejecutar el archivo de la "sesion15.py" a un Jupyter Notebook
 
 ---
 <!-- .slide: data-background-image="../../content/psg-bg-dark.png" data-background-size="100%"-->
