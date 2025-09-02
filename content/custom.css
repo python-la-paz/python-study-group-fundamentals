@@ -1,8 +1,15 @@
-.custom-btn-home{
-    position: absolute;
-    top: 1%;
-    left: 1%;
+:root {
+  --green: #057985;
+  --burgundy: #9e0059;
+  --yellow: #ffec9b;
+  --light-blue: #c0d6e1;
+  --cream: #ecece2;
 }
-.custom-btn-home  img{
-    width: 3vh;
+.custom-btn-home {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+}
+.custom-btn-home img {
+  width: 3vh;
 }
