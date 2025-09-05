@@ -13,3 +13,7 @@
 .custom-btn-home img {
   width: 3vh;
 }
+
+strong {
+  color: var(--yellow);
+}
