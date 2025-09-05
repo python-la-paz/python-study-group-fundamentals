@@ -1,10 +1,16 @@
 :root {
-  --green: #057985;
-  --burgundy: #9e0059;
-  --yellow: #ffec9b;
-  --light-blue: #c0d6e1;
-  --cream: #ecece2;
+  --green: #057985; /* Verde */
+  --burgundy: #9e0059; /* Bordo */
+  --yellow: #ffec9b; /* Amarillo */
+  --light-blue: #c0d6e1; /* Celeste */
+  --cream: #ecece2; /* Crema */
+
+  --turquoise-green: #2ec4b6; /* Verde Turquesa */
+  --pastel-orange: #f8d682; /* Naranja Pastel */
+  --creamy-orange: #f6d7c5; /* Naranja Cremoso */
+  --creamy-magenta: #f1dbe7; /* Magenta Cremoso */
 }
+
 .custom-btn-home {
   position: absolute;
   top: 1%;
