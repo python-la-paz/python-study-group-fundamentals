@@ -23,3 +23,7 @@
 strong {
   color: var(--yellow);
 }
+
+.slides p code {
+  color: var(--turquoise-green);
+}
